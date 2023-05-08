@@ -7,11 +7,19 @@ class HomePage:
 
     def __init__(self, driver):
         self.driver = driver
-        self.driver.get(read_properties.get_home_page_url())
         self.driver.implicitly_wait(5)
 
-    def get_logo(self):
-        return self.driver.find_element(By.XPATH, '//*[@id="navbar-home"]')
+    def move_to(self):
+        self.driver.get(read_properties.get_home_page_url())
+
+    def click_logo_btn(self):
+        return self.driver.find_element(By.XPATH, '//a[@id="navbar-home"]')
+
+    def click_study_abroad_btn(self):
+        return self.driver.find_element(By.XPATH, '//a[@id="navbar-home"]/following::div//a[text()="Study Abroad"]')
+
+    def get_page_title(self):
+        return self.driver.current_url
 
     def get_menu_button(self):
         try:

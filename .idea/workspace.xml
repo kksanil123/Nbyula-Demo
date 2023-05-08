@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="510e6a58-4a21-4ff6-9335-ffdc377882c2" name="Changes" comment="" />
+    <list default="true" id="510e6a58-4a21-4ff6-9335-ffdc377882c2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/test_cases/test_skylift_booking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestData/StoreLogins.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/StoreLogins.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_objects/book_skylift.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/book_skylift.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_objects/home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/home_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_objects/signup_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/signup_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/junk.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/junk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/test_home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_home_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/test_signup.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_signup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/test_skylift.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +32,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -36,8 +55,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/Programs/Python/Python310/Scripts" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\karla\AppData\Local\Programs\Python\Python310\Scripts" />
+      <recent name="C:\Users\karla\PycharmProjects\Nbyula\utilities" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.junk">
     <configuration name="conftest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -103,6 +128,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test_cases" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Nbyula" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_cases&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests in test_home_page.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Nbyula" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,6 +160,7 @@
       <list>
         <item itemvalue="Python.junk" />
         <item itemvalue="Python.conftest" />
+        <item itemvalue="Python tests.Python tests in test_cases" />
         <item itemvalue="Python tests.Python tests in test_home_page.py" />
       </list>
     </recent_temporary>
@@ -135,5 +175,16 @@
       <updated>1683347894764</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

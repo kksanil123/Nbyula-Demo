@@ -8,6 +8,8 @@ class SignUpPage:
         self.driver = driver
         self.driver.implicitly_wait(5)
 
+    def move_to(self):
+        self.driver.get(read_properties.get_signin_page_url())
 
     def set_email_field(self, email):
         self.driver.find_element(By.XPATH, '//input[@type="email"]').send_keys(email)
