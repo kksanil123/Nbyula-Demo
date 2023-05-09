@@ -65,29 +65,21 @@ def test_book_skylift(login, skylift_page_object, mobile_no):
             if skylift_page_object.bookinig_status() !='Proceed':
                 skylift_page_object.click_book_my_seat_btn()
             else:
-                try:
-                    logger.log(20, 'Skylift 1')
-                    skylift_page_object.click_proceed_btn()
-                    logger.log(20, 'Skylift 2')
-                    skylift_page_object.click_confirm_btn()
-                    logger.log(20, 'Skylift 3')
-                    skylift_page_object.set_mobile_number(mobile_no)
-                    logger.log(20, 'Skylift 4')
-                    skylift_page_object.disable_whatsapp_checkbox()
-                    logger.log(20, 'Skylift 5')
-                    skylift_page_object.click_continue_btn()
-                    logger.log(20, 'Skylift 6')
-                    pass
-                except NoSuchElementException as e:
+                pass
+            try:
+                skylift_page_object.click_proceed_btn()
+                skylift_page_object.click_confirm_btn()
+                skylift_page_object.set_mobile_number(mobile_no)
+                skylift_page_object.disable_whatsapp_checkbox()
+                skylift_page_object.click_continue_btn()
+            except NoSuchElementException as e:
                     pytest.fail('Button clicking failed', True)
     else:
         pytest.fail('Login unsuccessful', True)
 
     skylift_page_object.move_to()
-
     if skylift_page_object.check_join_converstaion_btn():
         assert True
     else:
         pytest.fail('Join conversation button not available', True)
-
     logger.log(20, 'Skylift booking Test ended.')

@@ -27,10 +27,6 @@ class ListingsPage():
         services = self.get_popular_services()
         if len(services) > 0:
             for i in range(len(services)):
-                print('&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&')
-                print(len(services))
-                print(common_xpath + f'[{i+1}]' + '//span' + '[2]')
-                print('&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&')
                 service_name = self.driver.find_element(By.XPATH, common_xpath + f'{[i+1]}' + '//span' + '[2]').text
                 service_link = self.driver.find_element(By.XPATH, common_xpath + f'{[i+1]}' + '//img').get_property('src')
                 print(service_name, service_link, )
