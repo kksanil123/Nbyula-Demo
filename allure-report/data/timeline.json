@@ -1,0 +1,78 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "MSI",
+    "children" : [ {
+      "name" : "18540-MainThread",
+      "children" : [ {
+        "name" : "test_atleast_one_quest",
+        "uid" : "4c9b1f98e8b53e3f",
+        "parentUid" : "171e6440700ba7b2b44c819b268c1326",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683576884621,
+          "stop" : 1683576886791,
+          "duration" : 2170
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_email_signup_success",
+        "uid" : "f82b34f867830f75",
+        "parentUid" : "171e6440700ba7b2b44c819b268c1326",
+        "status" : "broken",
+        "time" : {
+          "start" : 1683576887366,
+          "stop" : 1683576887366,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_book_skylift",
+        "uid" : "be0715547479001d",
+        "parentUid" : "171e6440700ba7b2b44c819b268c1326",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1683576895095,
+          "stop" : 1683576895095,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_click_logo",
+        "uid" : "8eb8b400c7de00d4",
+        "parentUid" : "171e6440700ba7b2b44c819b268c1326",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683576873917,
+          "stop" : 1683576874044,
+          "duration" : 127
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_ielts_listing_details",
+        "uid" : "45698e09624d3431",
+        "parentUid" : "171e6440700ba7b2b44c819b268c1326",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683576876505,
+          "stop" : 1683576876505,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "171e6440700ba7b2b44c819b268c1326"
+    } ],
+    "uid" : "4e235fbd4c199973bc00f3dda2ae852d"
+  } ]
+}

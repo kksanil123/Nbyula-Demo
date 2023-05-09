@@ -17,7 +17,6 @@ class SkyLift():
         self.driver.get(read_properties.get_skylift_page_url())
 
     def click_book_my_seat_btn(self):
-
         self.driver.find_element(By.XPATH, '//span[text()="Book My Seat"]').click()
 
     def click_proceed_btn(self):
@@ -37,11 +36,16 @@ class SkyLift():
 
     def check_join_converstaion_btn(self):
         try:
+            wait = WebDriverWait(self.driver, timeout=3)
+            wait.until(exp_con.visibility_of_element_located((By.XPATH, '//span[text()="Join Conversation"]')))
             self.driver.find_element(By.XPATH, '//span[text()="Join Conversation"]')
-        except NoSuchElementException:
+        except Exception:
             return False
 
         return True
+
+    def bookinig_status(self):
+        return self.driver.find_element(By.XPATH, '//button[@id="skylift-proceed-to-purchase"]/span').text
 
     def click_continue_btn(self):
         self.driver.find_element(By.XPATH, '//span[text()="Continue"]').click()

@@ -1,0 +1,25 @@
+[ {
+  "buildOrder" : 14,
+  "reportUrl" : "nulljob/Nbyula/14/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 1,
+    "broken" : 1,
+    "skipped" : 1,
+    "passed" : 2,
+    "unknown" : 0,
+    "total" : 5
+  }
+}, {
+  "buildOrder" : 13,
+  "reportUrl" : "nulljob/Nbyula/13/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 1,
+    "broken" : 1,
+    "skipped" : 1,
+    "passed" : 2,
+    "unknown" : 0,
+    "total" : 5
+  }
+} ]

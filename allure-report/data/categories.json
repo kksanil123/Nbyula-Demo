@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Failed: No questions found.",
+      "children" : [ {
+        "name" : "test_atleast_one_quest",
+        "uid" : "4c9b1f98e8b53e3f",
+        "parentUid" : "580e8b121509aa676d890b3fb9523ec8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683576884621,
+          "stop" : 1683576886791,
+          "duration" : 2170
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "580e8b121509aa676d890b3fb9523ec8"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=113.0.5672.64)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x00A2DCE3+50899]\n\t(No symbol) [0x009BE111]\n\t(No symbol) [0x008C5588]\n\t(No symbol) [0x008AD333]\n\t(No symbol) [0x0090F4DB]\n\t(No symbol) [0x0091DB33]\n\t(No symbol) [0x0090B6F6]\n\t(No symbol) [0x008E7708]\n\t(No symbol) [0x008E886D]\n\tGetHandleVerifier [0x00C93EAE+2566302]\n\tGetHandleVerifier [0x00CC92B1+2784417]\n\tGetHandleVerifier [0x00CC327C+2759788]\n\tGetHandleVerifier [0x00AC5740+672048]\n\t(No symbol) [0x009C8872]\n\t(No symbol) [0x009C41C8]\n\t(No symbol) [0x009C42AB]\n\t(No symbol) [0x009B71B7]\n\tBaseThreadInitThunk [0x75860099+25]\n\tRtlGetAppContainerNamedObjectPath [0x779C7B6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x779C7B3E+238]",
+      "children" : [ {
+        "name" : "test_email_signup_success",
+        "uid" : "f82b34f867830f75",
+        "parentUid" : "2d0c1d6eed67739381541a069e78ac95",
+        "status" : "broken",
+        "time" : {
+          "start" : 1683576887366,
+          "stop" : 1683576887366,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2d0c1d6eed67739381541a069e78ac95"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

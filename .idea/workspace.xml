@@ -5,21 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="510e6a58-4a21-4ff6-9335-ffdc377882c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test_cases/test_skylift_booking.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/automation.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/allurereport/172ba7a9-1275-4928-b4cb-80d3f96a5f8f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/allurereport/25a0858d-b46a-4921-bf0b-2bba33c9a113-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/allurereport/d67a892c-cf1e-4f86-a6f2-919678b57dd3-container.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TestData/StoreLogins.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TestData/StoreLogins.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/page_objects/book_skylift.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/book_skylift.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_objects/home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/home_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_objects/signup_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/signup_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_cases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_objects/listings_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/listings_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_cases/junk.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/junk.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_cases/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/pytest.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_cases/test_home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_home_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/test_listings_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_listings_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/test_quest_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_quest_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_cases/test_signup.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_signup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_cases/test_skylift.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/test_skylift_booking.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_skylift_booking.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,9 +155,24 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test_skylift_booking.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Nbyula" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_cases/test_skylift_booking.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.junk" />
+        <item itemvalue="Python tests.Python tests in test_skylift_booking.py" />
         <item itemvalue="Python.conftest" />
         <item itemvalue="Python tests.Python tests in test_cases" />
         <item itemvalue="Python tests.Python tests in test_home_page.py" />

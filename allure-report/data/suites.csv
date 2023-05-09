@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Tue May 09 01:44:47 IST 2023","Tue May 09 01:44:47 IST 2023","0","","test_signup","","","","test_email_signup_success",""
+"passed","Tue May 09 01:44:33 IST 2023","Tue May 09 01:44:34 IST 2023","127","","test_home_page","","","","test_click_logo",""
+"passed","Tue May 09 01:44:36 IST 2023","Tue May 09 01:44:36 IST 2023","0","","test_listings_page","","","","test_ielts_listing_details",""
+"failed","Tue May 09 01:44:44 IST 2023","Tue May 09 01:44:46 IST 2023","2170","","test_quest_page","","","","test_atleast_one_quest",""
+"skipped","Tue May 09 01:44:55 IST 2023","Tue May 09 01:44:55 IST 2023","0","","test_skylift_booking","","","","test_book_skylift",""

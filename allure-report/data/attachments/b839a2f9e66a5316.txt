@@ -1,0 +1,1 @@
+[32mINFO    [0m root:test_signup.py:73 Email signup started.

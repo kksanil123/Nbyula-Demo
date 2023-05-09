@@ -1,0 +1,2 @@
+[32mINFO    [0m root:test_home_page.py:16 Home page test started
+[32mINFO    [0m root:test_home_page.py:24 Home page test ended
