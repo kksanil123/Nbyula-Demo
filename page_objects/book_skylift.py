@@ -45,7 +45,7 @@ class SkyLift():
         return True
 
     def bookinig_status(self):
-        return self.driver.find_element(By.XPATH, '//button[@id="skylift-proceed-to-purchase"]/span').text
+        return self.driver.find_element(By.XPATH, '//p[text()="Recording will be available soon!"]/parent::section/child::button/span').text
 
     def click_continue_btn(self):
         self.driver.find_element(By.XPATH, '//span[text()="Continue"]').click()
