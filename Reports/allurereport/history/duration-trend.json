@@ -1,9 +1,4 @@
 [ {
-  "buildOrder" : 22,
-  "reportUrl" : "nulljob/Nbyula/22/allure",
-  "reportName" : "AllureReport",
-  "data" : { }
-}, {
   "buildOrder" : 21,
   "reportUrl" : "nulljob/Nbyula/21/allure",
   "reportName" : "AllureReport",
@@ -43,15 +38,13 @@
   "reportUrl" : "nulljob/Nbyula/14/allure",
   "reportName" : "AllureReport",
   "data" : {
-    "Product defects" : 1,
-    "Test defects" : 1
+    "duration" : 21178
   }
 }, {
   "buildOrder" : 13,
   "reportUrl" : "nulljob/Nbyula/13/allure",
   "reportName" : "AllureReport",
   "data" : {
-    "Product defects" : 1,
-    "Test defects" : 1
+    "duration" : 21178
   }
 } ]

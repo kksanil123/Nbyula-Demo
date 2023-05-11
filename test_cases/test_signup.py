@@ -46,7 +46,7 @@ def password():
 @pytest.fixture(scope='module')
 def fetch_otp(driver, email):
     logger.log(20, 'Fetch OTP fixture started')
-    wait = WebDriverWait(driver, timeout=6, ignored_exceptions=[TimeoutException])
+    wait = WebDriverWait(driver, timeout=8, ignored_exceptions=[TimeoutException])
     driver.switch_to.new_window('window')
     driver.get("https://yopmail.com/")
     driver.maximize_window()
@@ -54,11 +54,15 @@ def fetch_otp(driver, email):
     driver.find_element(By.XPATH, '//button[@class="md"]').click()
     try:
         wait.until(exp_con.element_to_be_clickable((By.XPATH, '//button[@id="refresh"]')))
+        driver.find_element(By.XPATH, '//button[@id="refresh"]').click()
     except ElementClickInterceptedException:
         pytest.skip("Skipping this test, since human verfification is needed.")
-    driver.find_element(By.XPATH, '//button[@id="refresh"]').click()
-    driver.switch_to.frame('ifinbox')
-    wait.until(exp_con.visibility_of_element_located((By.XPATH, '//span[text()="Nbyula"]')))
+    wait.until(exp_con.frame_to_be_available_and_switch_to_it((By.XPATH, '//iframe[@name="ifinbox"]')))
+    if exp_con.visibility_of_element_located((By.XPATH, '//span[text()="Nbyula"]')):
+        driver.find_element(By.XPATH, '//span[text()="Nbyula"]').click()
+    else:
+        driver.switch_to.default_content()
+        driver.find_element(By.XPATH, '//button[@id="refresh"]').click()
     driver.switch_to.default_content()
     driver.switch_to.frame('ifmail')
     email_subject = driver.find_element(By.XPATH, '//div[@class="ellipsis nw b f18"]').text
@@ -77,7 +81,6 @@ def email_signup(signup_page_object, email, request, password):
     signup_page_object.set_last_name('Testing')
     signup_page_object.set_password(password)
     signup_page_object.click_signup_button()
-
     otp = request.getfixturevalue('fetch_otp')
     signup_page_object.set_otp(otp)
     signup_page_object.click_confirm_button()

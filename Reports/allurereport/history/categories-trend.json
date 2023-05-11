@@ -1,9 +1,4 @@
 [ {
-  "buildOrder" : 22,
-  "reportUrl" : "nulljob/Nbyula/22/allure",
-  "reportName" : "AllureReport",
-  "data" : { }
-}, {
   "buildOrder" : 21,
   "reportUrl" : "nulljob/Nbyula/21/allure",
   "reportName" : "AllureReport",

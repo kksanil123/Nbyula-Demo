@@ -1,4 +1,39 @@
 [ {
+  "buildOrder" : 22,
+  "reportUrl" : "nulljob/Nbyula/22/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 21,
+  "reportUrl" : "nulljob/Nbyula/21/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 20,
+  "reportUrl" : "nulljob/Nbyula/20/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 19,
+  "reportUrl" : "nulljob/Nbyula/19/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 18,
+  "reportUrl" : "nulljob/Nbyula/18/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 17,
+  "reportUrl" : "nulljob/Nbyula/17/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 16,
+  "reportUrl" : "nulljob/Nbyula/16/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
   "buildOrder" : 15,
   "reportUrl" : "nulljob/Nbyula/15/allure",
   "reportName" : "AllureReport",

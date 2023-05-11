@@ -1,0 +1,153 @@
+{
+  "e73e766fbb256403545da076d3626c90" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "8eb8b400c7de00d4",
+      "reportUrl" : "nulljob/Nbyula/14/allure/#testresult/8eb8b400c7de00d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683576873917,
+        "stop" : 1683576874044,
+        "duration" : 127
+      }
+    }, {
+      "uid" : "ffe18466418204c4",
+      "reportUrl" : "nulljob/Nbyula/13/allure/#testresult/ffe18466418204c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683576873917,
+        "stop" : 1683576874044,
+        "duration" : 127
+      }
+    } ]
+  },
+  "d59ae060ea4cb92bfc32bae96eda5adc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "be0715547479001d",
+      "reportUrl" : "nulljob/Nbyula/14/allure/#testresult/be0715547479001d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: No Accounts available to login. Please check Test data folder.",
+      "time" : {
+        "start" : 1683576895095,
+        "stop" : 1683576895095,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3847fda920ab6cad",
+      "reportUrl" : "nulljob/Nbyula/13/allure/#testresult/3847fda920ab6cad",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: No Accounts available to login. Please check Test data folder.",
+      "time" : {
+        "start" : 1683576895095,
+        "stop" : 1683576895095,
+        "duration" : 0
+      }
+    } ]
+  },
+  "48903d8efc416133ab64476574dff3a4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "45698e09624d3431",
+      "reportUrl" : "nulljob/Nbyula/14/allure/#testresult/45698e09624d3431",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683576876505,
+        "stop" : 1683576876505,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7c810274d3cbe741",
+      "reportUrl" : "nulljob/Nbyula/13/allure/#testresult/7c810274d3cbe741",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683576876505,
+        "stop" : 1683576876505,
+        "duration" : 0
+      }
+    } ]
+  },
+  "5e7e7a6eb8972861f0ffe853e98e6c3b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "f82b34f867830f75",
+      "reportUrl" : "nulljob/Nbyula/14/allure/#testresult/f82b34f867830f75",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=113.0.5672.64)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x00A2DCE3+50899]\n\t(No symbol) [0x009BE111]\n\t(No symbol) [0x008C5588]\n\t(No symbol) [0x008AD333]\n\t(No symbol) [0x0090F4DB]\n\t(No symbol) [0x0091DB33]\n\t(No symbol) [0x0090B6F6]\n\t(No symbol) [0x008E7708]\n\t(No symbol) [0x008E886D]\n\tGetHandleVerifier [0x00C93EAE+2566302]\n\tGetHandleVerifier [0x00CC92B1+2784417]\n\tGetHandleVerifier [0x00CC327C+2759788]\n\tGetHandleVerifier [0x00AC5740+672048]\n\t(No symbol) [0x009C8872]\n\t(No symbol) [0x009C41C8]\n\t(No symbol) [0x009C42AB]\n\t(No symbol) [0x009B71B7]\n\tBaseThreadInitThunk [0x75860099+25]\n\tRtlGetAppContainerNamedObjectPath [0x779C7B6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x779C7B3E+238]",
+      "time" : {
+        "start" : 1683576887366,
+        "stop" : 1683576887366,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "efdd042b6fac9440",
+      "reportUrl" : "nulljob/Nbyula/13/allure/#testresult/efdd042b6fac9440",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=113.0.5672.64)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x00A2DCE3+50899]\n\t(No symbol) [0x009BE111]\n\t(No symbol) [0x008C5588]\n\t(No symbol) [0x008AD333]\n\t(No symbol) [0x0090F4DB]\n\t(No symbol) [0x0091DB33]\n\t(No symbol) [0x0090B6F6]\n\t(No symbol) [0x008E7708]\n\t(No symbol) [0x008E886D]\n\tGetHandleVerifier [0x00C93EAE+2566302]\n\tGetHandleVerifier [0x00CC92B1+2784417]\n\tGetHandleVerifier [0x00CC327C+2759788]\n\tGetHandleVerifier [0x00AC5740+672048]\n\t(No symbol) [0x009C8872]\n\t(No symbol) [0x009C41C8]\n\t(No symbol) [0x009C42AB]\n\t(No symbol) [0x009B71B7]\n\tBaseThreadInitThunk [0x75860099+25]\n\tRtlGetAppContainerNamedObjectPath [0x779C7B6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x779C7B3E+238]",
+      "time" : {
+        "start" : 1683576887366,
+        "stop" : 1683576887366,
+        "duration" : 0
+      }
+    } ]
+  },
+  "d2c769f1bb554aca0fcf00292dc3b9d4" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "4c9b1f98e8b53e3f",
+      "reportUrl" : "nulljob/Nbyula/14/allure/#testresult/4c9b1f98e8b53e3f",
+      "status" : "failed",
+      "statusDetails" : "Failed: No questions found.",
+      "time" : {
+        "start" : 1683576884621,
+        "stop" : 1683576886791,
+        "duration" : 2170
+      }
+    }, {
+      "uid" : "6442f327e2e3de34",
+      "reportUrl" : "nulljob/Nbyula/13/allure/#testresult/6442f327e2e3de34",
+      "status" : "failed",
+      "statusDetails" : "Failed: No questions found.",
+      "time" : {
+        "start" : 1683576884621,
+        "stop" : 1683576886791,
+        "duration" : 2170
+      }
+    } ]
+  }
+}
