@@ -1,9 +1,9 @@
 [ {
   "name" : "Jenkins",
   "type" : "jenkins",
-  "buildOrder" : 22,
-  "buildName" : "Nbyula #22",
-  "buildUrl" : "nulljob/Nbyula/22/",
+  "buildOrder" : 59,
+  "buildName" : "Nbyula #59",
+  "buildUrl" : "nulljob/Nbyula/59/",
   "reportName" : "AllureReport",
-  "reportUrl" : "nulljob/Nbyula/22/allure"
+  "reportUrl" : "nulljob/Nbyula/59/allure"
 } ]

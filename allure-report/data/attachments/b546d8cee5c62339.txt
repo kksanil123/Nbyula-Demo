@@ -1,0 +1,2 @@
+INFO     root:test_listings_page.py:28 Popular services listings Test started.
+INFO     root:test_listings_page.py:35 Popular services listings Test ended.

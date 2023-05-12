@@ -1,0 +1,2 @@
+INFO     root:test_quest_page.py:18 Questions page Test started
+INFO     root:test_quest_page.py:21 Questions page Test started

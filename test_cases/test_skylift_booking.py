@@ -60,7 +60,7 @@ def test_book_skylift(login, skylift_page_object, mobile_no):
     if login:
         logger.log(20, 'Login successful')
         if skylift_page_object.bookinig_status() =='Join Conversation':
-            pytest.xfail("User has already joined the event", True)
+            pytest.xfail("User has already joined the event")
         else:
             if skylift_page_object.bookinig_status() !='Proceed':
                 skylift_page_object.click_book_my_seat_btn()

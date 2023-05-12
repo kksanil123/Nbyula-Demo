@@ -1,4 +1,59 @@
 {
-  "total" : 0,
-  "items" : [ ]
+  "total" : 5,
+  "items" : [ {
+    "uid" : "7b7f485996315b9ff6ac262ccb07dca7",
+    "name" : "test_listings_page",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "1f07d80eb5b434468b42aacf60d1b30a",
+    "name" : "test_home_page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "fef37e1a861930d4a139ca68a4a0a0e3",
+    "name" : "test_quest_page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "56e6dd00945b40ba6bc0e1b2b518ba4f",
+    "name" : "test_signup",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "56e01e5d8784649c9ddd0b07e1ff1669",
+    "name" : "test_skylift_booking",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
 }

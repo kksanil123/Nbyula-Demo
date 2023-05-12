@@ -1,0 +1,1 @@
+{"uuid": "d16d72fd-9f6d-4d85-ad5e-e583e1a0e4b6", "children": ["5afc8251-fac7-47a3-aa5d-43e32362a63b"], "befores": [{"name": "email_signup", "status": "passed", "start": 1683885126930, "stop": 1683885136652}], "afters": [{"name": "email_signup::0", "status": "passed", "start": 1683885137647, "stop": 1683885137648}], "start": 1683885126930, "stop": 1683885137648}

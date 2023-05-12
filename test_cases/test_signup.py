@@ -28,11 +28,11 @@ def signup_page_object(driver):
 
 @pytest.fixture(scope='module')
 def email():
-    email_gen = 'Test' + str(random.randint(1, 1000)) + '@yopmail.com'
+    email_gen = 'Test' + str(random.randint(1000, 10000)) + '@yopmail.com'
     if email_gen in Registered_emails:
-        email = 'Testa' + str(random.randint(1, 1000)) + '@yopmail.com'
+        email = 'Testa' + str(random.randint(1000, 10000)) + '@yopmail.com'
     else:
-        email = 'Test' + str(random.randint(1, 1000)) + '@yopmail.com'
+        email = 'Test' + str(random.randint(1000, 10000)) + '@yopmail.com'
 
     Registered_emails.append(email)
     return email
@@ -52,8 +52,9 @@ def fetch_otp(driver, email):
     driver.maximize_window()
     driver.find_element(By.XPATH, '//input[@placeholder="Enter your inbox here"]').send_keys(email)
     driver.find_element(By.XPATH, '//button[@class="md"]').click()
+    wait.until(exp_con.element_to_be_clickable((By.XPATH, '//button[@id="refresh"]')))
     try:
-        wait.until(exp_con.element_to_be_clickable((By.XPATH, '//button[@id="refresh"]')))
+
         driver.find_element(By.XPATH, '//button[@id="refresh"]').click()
     except ElementClickInterceptedException:
         pytest.skip("Skipping this test, since human verfification is needed.")

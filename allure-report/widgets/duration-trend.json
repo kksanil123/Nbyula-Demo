@@ -1,55 +1,117 @@
 [ {
-  "buildOrder" : 22,
-  "reportUrl" : "nulljob/Nbyula/22/allure",
-  "reportName" : "AllureReport",
-  "data" : { }
-}, {
-  "buildOrder" : 21,
-  "reportUrl" : "nulljob/Nbyula/21/allure",
-  "reportName" : "AllureReport",
-  "data" : { }
-}, {
-  "buildOrder" : 20,
-  "reportUrl" : "nulljob/Nbyula/20/allure",
-  "reportName" : "AllureReport",
-  "data" : { }
-}, {
-  "buildOrder" : 19,
-  "reportUrl" : "nulljob/Nbyula/19/allure",
-  "reportName" : "AllureReport",
-  "data" : { }
-}, {
-  "buildOrder" : 18,
-  "reportUrl" : "nulljob/Nbyula/18/allure",
-  "reportName" : "AllureReport",
-  "data" : { }
-}, {
-  "buildOrder" : 17,
-  "reportUrl" : "nulljob/Nbyula/17/allure",
-  "reportName" : "AllureReport",
-  "data" : { }
-}, {
-  "buildOrder" : 16,
-  "reportUrl" : "nulljob/Nbyula/16/allure",
-  "reportName" : "AllureReport",
-  "data" : { }
-}, {
-  "buildOrder" : 15,
-  "reportUrl" : "nulljob/Nbyula/15/allure",
-  "reportName" : "AllureReport",
-  "data" : { }
-}, {
-  "buildOrder" : 14,
-  "reportUrl" : "nulljob/Nbyula/14/allure",
+  "buildOrder" : 59,
+  "reportUrl" : "nulljob/Nbyula/59/allure",
   "reportName" : "AllureReport",
   "data" : {
-    "duration" : 21178
+    "duration" : 75693
   }
 }, {
-  "buildOrder" : 13,
-  "reportUrl" : "nulljob/Nbyula/13/allure",
+  "buildOrder" : 58,
+  "reportUrl" : "nulljob/Nbyula/58/allure",
   "reportName" : "AllureReport",
   "data" : {
-    "duration" : 21178
+    "duration" : 78046
   }
+}, {
+  "buildOrder" : 57,
+  "reportUrl" : "nulljob/Nbyula/57/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 63145
+  }
+}, {
+  "buildOrder" : 56,
+  "reportUrl" : "nulljob/Nbyula/56/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 72031
+  }
+}, {
+  "buildOrder" : 55,
+  "reportUrl" : "nulljob/Nbyula/55/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 84923
+  }
+}, {
+  "buildOrder" : 54,
+  "reportUrl" : "nulljob/Nbyula/54/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 53,
+  "reportUrl" : "nulljob/Nbyula/53/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 52,
+  "reportUrl" : "nulljob/Nbyula/52/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 51,
+  "reportUrl" : "nulljob/Nbyula/51/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 49,
+  "reportUrl" : "nulljob/Nbyula/49/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 46,
+  "reportUrl" : "nulljob/Nbyula/46/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 51332
+  }
+}, {
+  "buildOrder" : 45,
+  "reportUrl" : "nulljob/Nbyula/45/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 170
+  }
+}, {
+  "buildOrder" : 44,
+  "reportUrl" : "nulljob/Nbyula/44/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 43,
+  "reportUrl" : "nulljob/Nbyula/43/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 874
+  }
+}, {
+  "buildOrder" : 42,
+  "reportUrl" : "nulljob/Nbyula/42/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 41,
+  "reportUrl" : "nulljob/Nbyula/41/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 40,
+  "reportUrl" : "nulljob/Nbyula/40/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 39,
+  "reportUrl" : "nulljob/Nbyula/39/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 38,
+  "reportUrl" : "nulljob/Nbyula/38/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 37,
+  "reportUrl" : "nulljob/Nbyula/37/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
 } ]

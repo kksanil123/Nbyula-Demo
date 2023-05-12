@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Failed: Test failed. No Ielts listings found.",
+      "children" : [ {
+        "name" : "test_ielts_listing",
+        "uid" : "331efc440ae0387b",
+        "parentUid" : "a9a7ce298a0878ed6e1edc56893070f7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1683885104484,
+          "stop" : 1683885109835,
+          "duration" : 5351
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a9a7ce298a0878ed6e1edc56893070f7"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

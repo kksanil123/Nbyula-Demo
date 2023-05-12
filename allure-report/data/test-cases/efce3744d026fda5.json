@@ -1,0 +1,338 @@
+{
+  "uid" : "efce3744d026fda5",
+  "name" : "test_email_signup_success",
+  "fullName" : "test_signup#test_email_signup_success",
+  "historyId" : "5e7e7a6eb8972861f0ffe853e98e6c3b",
+  "time" : {
+    "start" : 1683885136654,
+    "stop" : 1683885137645,
+    "duration" : 991
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1683885122221,
+      "stop" : 1683885124429,
+      "duration" : 2208
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "email",
+    "time" : {
+      "start" : 1683885122221,
+      "stop" : 1683885122221,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "password",
+    "time" : {
+      "start" : 1683885122221,
+      "stop" : 1683885122221,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "home_page_object",
+    "time" : {
+      "start" : 1683885124429,
+      "stop" : 1683885124433,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "fetch_otp",
+    "time" : {
+      "start" : 1683885129089,
+      "stop" : 1683885136315,
+      "duration" : 7226
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "signup_page_object",
+    "time" : {
+      "start" : 1683885124433,
+      "stop" : 1683885126930,
+      "duration" : 2497
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "email_signup",
+    "time" : {
+      "start" : 1683885126930,
+      "stop" : 1683885136652,
+      "duration" : 9722
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9566f0fef707cbba",
+      "name" : "log",
+      "source" : "9566f0fef707cbba.txt",
+      "type" : "text/plain",
+      "size" : 415
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "home_page_object::0",
+    "time" : {
+      "start" : 1683885137663,
+      "stop" : 1683885141798,
+      "duration" : 4135
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "fetch_otp::0",
+    "time" : {
+      "start" : 1683885137653,
+      "stop" : 1683885137654,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "signup_page_object::0",
+    "time" : {
+      "start" : 1683885137658,
+      "stop" : 1683885137659,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "email_signup::0",
+    "time" : {
+      "start" : 1683885137647,
+      "stop" : 1683885137648,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_signup"
+  }, {
+    "name" : "host",
+    "value" : "MSI"
+  }, {
+    "name" : "thread",
+    "value" : "10792-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_signup"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fd730beaff6e4c9f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: uniqueContextId not found\n  (Session info: chrome=113.0.5672.93)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x0097DCE3+50899]\n\t(No symbol) [0x0090E111]\n\t(No symbol) [0x00815588]\n\t(No symbol) [0x00808862]\n\t(No symbol) [0x00807118]\n\t(No symbol) [0x0080778A]\n\t(No symbol) [0x0081CE34]\n\t(No symbol) [0x008179A0]\n\t(No symbol) [0x008174E1]\n\t(No symbol) [0x00817D4C]\n\t(No symbol) [0x00818030]\n\t(No symbol) [0x00840552]\n\t(No symbol) [0x00840AFB]\n\t(No symbol) [0x0086F902]\n\t(No symbol) [0x0085B944]\n\t(No symbol) [0x0086E01C]\n\t(No symbol) [0x0085B6F6]\n\t(No symbol) [0x00837708]\n\t(No symbol) [0x0083886D]\n\tGetHandleVerifier [0x00BE3EAE+2566302]\n\tGetHandleVerifier [0x00C192B1+2784417]\n\tGetHandleVerifier [0x00C1327C+2759788]\n\tGetHandleVerifier [0x00A15740+672048]\n\t(No symbol) [0x00918872]\n\t(No symbol) [0x009141C8]\n\t(No symbol) [0x009142AB]\n\t(No symbol) [0x009071B7]\n\tBaseThreadInitThunk [0x76BB0099+25]\n\tRtlGetAppContainerNamedObjectPath [0x775E7B6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x775E7B3E+238]",
+      "time" : {
+        "start" : 1683884911458,
+        "stop" : 1683884911458,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4b99f6f5a3eefa3c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: uniqueContextId not found\n  (Session info: chrome=113.0.5672.93)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x0097DCE3+50899]\n\t(No symbol) [0x0090E111]\n\t(No symbol) [0x00815588]\n\t(No symbol) [0x00808862]\n\t(No symbol) [0x00807118]\n\t(No symbol) [0x0080778A]\n\t(No symbol) [0x0081CE34]\n\t(No symbol) [0x008179A0]\n\t(No symbol) [0x008174E1]\n\t(No symbol) [0x00817D4C]\n\t(No symbol) [0x00818030]\n\t(No symbol) [0x00840552]\n\t(No symbol) [0x00840AFB]\n\t(No symbol) [0x0086F902]\n\t(No symbol) [0x0085B944]\n\t(No symbol) [0x0086E01C]\n\t(No symbol) [0x0085B6F6]\n\t(No symbol) [0x00837708]\n\t(No symbol) [0x0083886D]\n\tGetHandleVerifier [0x00BE3EAE+2566302]\n\tGetHandleVerifier [0x00C192B1+2784417]\n\tGetHandleVerifier [0x00C1327C+2759788]\n\tGetHandleVerifier [0x00A15740+672048]\n\t(No symbol) [0x00918872]\n\t(No symbol) [0x009141C8]\n\t(No symbol) [0x009142AB]\n\t(No symbol) [0x009071B7]\n\tBaseThreadInitThunk [0x76BB0099+25]\n\tRtlGetAppContainerNamedObjectPath [0x775E7B6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x775E7B3E+238]",
+      "time" : {
+        "start" : 1683884510102,
+        "stop" : 1683884510102,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a312378a439511c4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()=\"Nbyula\"]\"}\n  (Session info: chrome=113.0.5672.93)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x0097DCE3+50899]\n\t(No symbol) [0x0090E111]\n\t(No symbol) [0x00815588]\n\t(No symbol) [0x008408F9]\n\t(No symbol) [0x00840AFB]\n\t(No symbol) [0x0086F902]\n\t(No symbol) [0x0085B944]\n\t(No symbol) [0x0086E01C]\n\t(No symbol) [0x0085B6F6]\n\t(No symbol) [0x00837708]\n\t(No symbol) [0x0083886D]\n\tGetHandleVerifier [0x00BE3EAE+2566302]\n\tGetHandleVerifier [0x00C192B1+2784417]\n\tGetHandleVerifier [0x00C1327C+2759788]\n\tGetHandleVerifier [0x00A15740+672048]\n\t(No symbol) [0x00918872]\n\t(No symbol) [0x009141C8]\n\t(No symbol) [0x009142AB]\n\t(No symbol) [0x009071B7]\n\tBaseThreadInitThunk [0x76BB0099+25]\n\tRtlGetAppContainerNamedObjectPath [0x775E7B6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x775E7B3E+238]",
+      "time" : {
+        "start" : 1683884222162,
+        "stop" : 1683884222162,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 6,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "4f4adb57bca868bc",
+        "reportUrl" : "nulljob/Nbyula/58/allure/#testresult/4f4adb57bca868bc",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: uniqueContextId not found\n  (Session info: chrome=113.0.5672.93)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x0097DCE3+50899]\n\t(No symbol) [0x0090E111]\n\t(No symbol) [0x00815588]\n\t(No symbol) [0x00808862]\n\t(No symbol) [0x00807118]\n\t(No symbol) [0x0080778A]\n\t(No symbol) [0x0081CE34]\n\t(No symbol) [0x008179A0]\n\t(No symbol) [0x008174E1]\n\t(No symbol) [0x00817D4C]\n\t(No symbol) [0x00818030]\n\t(No symbol) [0x00840552]\n\t(No symbol) [0x00840AFB]\n\t(No symbol) [0x0086F902]\n\t(No symbol) [0x0085B944]\n\t(No symbol) [0x0086E01C]\n\t(No symbol) [0x0085B6F6]\n\t(No symbol) [0x00837708]\n\t(No symbol) [0x0083886D]\n\tGetHandleVerifier [0x00BE3EAE+2566302]\n\tGetHandleVerifier [0x00C192B1+2784417]\n\tGetHandleVerifier [0x00C1327C+2759788]\n\tGetHandleVerifier [0x00A15740+672048]\n\t(No symbol) [0x00918872]\n\t(No symbol) [0x009141C8]\n\t(No symbol) [0x009142AB]\n\t(No symbol) [0x009071B7]\n\tBaseThreadInitThunk [0x76BB0099+25]\n\tRtlGetAppContainerNamedObjectPath [0x775E7B6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x775E7B3E+238]",
+        "time" : {
+          "start" : 1683884911458,
+          "stop" : 1683884911458,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "682409e1cb6ae121",
+        "reportUrl" : "nulljob/Nbyula/57/allure/#testresult/682409e1cb6ae121",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: uniqueContextId not found\n  (Session info: chrome=113.0.5672.93)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x0097DCE3+50899]\n\t(No symbol) [0x0090E111]\n\t(No symbol) [0x00815588]\n\t(No symbol) [0x00808862]\n\t(No symbol) [0x00807118]\n\t(No symbol) [0x0080778A]\n\t(No symbol) [0x0081CE34]\n\t(No symbol) [0x008179A0]\n\t(No symbol) [0x008174E1]\n\t(No symbol) [0x00817D4C]\n\t(No symbol) [0x00818030]\n\t(No symbol) [0x00840552]\n\t(No symbol) [0x00840AFB]\n\t(No symbol) [0x0086F902]\n\t(No symbol) [0x0085B944]\n\t(No symbol) [0x0086E01C]\n\t(No symbol) [0x0085B6F6]\n\t(No symbol) [0x00837708]\n\t(No symbol) [0x0083886D]\n\tGetHandleVerifier [0x00BE3EAE+2566302]\n\tGetHandleVerifier [0x00C192B1+2784417]\n\tGetHandleVerifier [0x00C1327C+2759788]\n\tGetHandleVerifier [0x00A15740+672048]\n\t(No symbol) [0x00918872]\n\t(No symbol) [0x009141C8]\n\t(No symbol) [0x009142AB]\n\t(No symbol) [0x009071B7]\n\tBaseThreadInitThunk [0x76BB0099+25]\n\tRtlGetAppContainerNamedObjectPath [0x775E7B6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x775E7B3E+238]",
+        "time" : {
+          "start" : 1683884510102,
+          "stop" : 1683884510102,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "874959d7d4098a25",
+        "reportUrl" : "nulljob/Nbyula/56/allure/#testresult/874959d7d4098a25",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()=\"Nbyula\"]\"}\n  (Session info: chrome=113.0.5672.93)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x0097DCE3+50899]\n\t(No symbol) [0x0090E111]\n\t(No symbol) [0x00815588]\n\t(No symbol) [0x008408F9]\n\t(No symbol) [0x00840AFB]\n\t(No symbol) [0x0086F902]\n\t(No symbol) [0x0085B944]\n\t(No symbol) [0x0086E01C]\n\t(No symbol) [0x0085B6F6]\n\t(No symbol) [0x00837708]\n\t(No symbol) [0x0083886D]\n\tGetHandleVerifier [0x00BE3EAE+2566302]\n\tGetHandleVerifier [0x00C192B1+2784417]\n\tGetHandleVerifier [0x00C1327C+2759788]\n\tGetHandleVerifier [0x00A15740+672048]\n\t(No symbol) [0x00918872]\n\t(No symbol) [0x009141C8]\n\t(No symbol) [0x009142AB]\n\t(No symbol) [0x009071B7]\n\tBaseThreadInitThunk [0x76BB0099+25]\n\tRtlGetAppContainerNamedObjectPath [0x775E7B6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x775E7B3E+238]",
+        "time" : {
+          "start" : 1683884222162,
+          "stop" : 1683884222162,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "45a49b991a3cf297",
+        "reportUrl" : "nulljob/Nbyula/55/allure/#testresult/45a49b991a3cf297",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683880180210,
+          "stop" : 1683880181658,
+          "duration" : 1448
+        }
+      }, {
+        "uid" : "12f6fd870d03b9cb",
+        "reportUrl" : "nulljob/Nbyula/46/allure/#testresult/12f6fd870d03b9cb",
+        "status" : "broken",
+        "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'send_keys'",
+        "time" : {
+          "start" : 1683835994269,
+          "stop" : 1683835994269,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f82b34f867830f75",
+        "reportUrl" : "nulljob/Nbyula/14/allure/#testresult/f82b34f867830f75",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=113.0.5672.64)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x00A2DCE3+50899]\n\t(No symbol) [0x009BE111]\n\t(No symbol) [0x008C5588]\n\t(No symbol) [0x008AD333]\n\t(No symbol) [0x0090F4DB]\n\t(No symbol) [0x0091DB33]\n\t(No symbol) [0x0090B6F6]\n\t(No symbol) [0x008E7708]\n\t(No symbol) [0x008E886D]\n\tGetHandleVerifier [0x00C93EAE+2566302]\n\tGetHandleVerifier [0x00CC92B1+2784417]\n\tGetHandleVerifier [0x00CC327C+2759788]\n\tGetHandleVerifier [0x00AC5740+672048]\n\t(No symbol) [0x009C8872]\n\t(No symbol) [0x009C41C8]\n\t(No symbol) [0x009C42AB]\n\t(No symbol) [0x009B71B7]\n\tBaseThreadInitThunk [0x75860099+25]\n\tRtlGetAppContainerNamedObjectPath [0x779C7B6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x779C7B3E+238]",
+        "time" : {
+          "start" : 1683576887366,
+          "stop" : 1683576887366,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "efdd042b6fac9440",
+        "reportUrl" : "nulljob/Nbyula/13/allure/#testresult/efdd042b6fac9440",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=113.0.5672.64)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x00A2DCE3+50899]\n\t(No symbol) [0x009BE111]\n\t(No symbol) [0x008C5588]\n\t(No symbol) [0x008AD333]\n\t(No symbol) [0x0090F4DB]\n\t(No symbol) [0x0091DB33]\n\t(No symbol) [0x0090B6F6]\n\t(No symbol) [0x008E7708]\n\t(No symbol) [0x008E886D]\n\tGetHandleVerifier [0x00C93EAE+2566302]\n\tGetHandleVerifier [0x00CC92B1+2784417]\n\tGetHandleVerifier [0x00CC327C+2759788]\n\tGetHandleVerifier [0x00AC5740+672048]\n\t(No symbol) [0x009C8872]\n\t(No symbol) [0x009C41C8]\n\t(No symbol) [0x009C42AB]\n\t(No symbol) [0x009B71B7]\n\tBaseThreadInitThunk [0x75860099+25]\n\tRtlGetAppContainerNamedObjectPath [0x779C7B6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x779C7B3E+238]",
+        "time" : {
+          "start" : 1683576887366,
+          "stop" : 1683576887366,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "efce3744d026fda5.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,4 @@
+INFO     root:test_skylift_booking.py:39 Fetched login details
+INFO     root:test_skylift_booking.py:59 Skylift booking Test started.
+INFO     root:test_skylift_booking.py:61 Login successful
+INFO     root:test_skylift_booking.py:85 Skylift booking Test ended.

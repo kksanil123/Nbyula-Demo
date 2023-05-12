@@ -1,0 +1,308 @@
+{
+  "uid" : "b04a4dcba703fdfb",
+  "name" : "test_book_skylift",
+  "fullName" : "test_skylift_booking#test_book_skylift",
+  "historyId" : "d59ae060ea4cb92bfc32bae96eda5adc",
+  "time" : {
+    "start" : 1683885158511,
+    "stop" : 1683885170944,
+    "duration" : 12433
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login_details",
+    "time" : {
+      "start" : 1683885150661,
+      "stop" : 1683885150676,
+      "duration" : 15
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "signin_page_object",
+    "time" : {
+      "start" : 1683885148196,
+      "stop" : 1683885150660,
+      "duration" : 2464
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "skylift_page_object",
+    "time" : {
+      "start" : 1683885152103,
+      "stop" : 1683885158511,
+      "duration" : 6408
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "login",
+    "time" : {
+      "start" : 1683885150676,
+      "stop" : 1683885152103,
+      "duration" : 1427
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1683885145896,
+      "stop" : 1683885148196,
+      "duration" : 2300
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "mobile_no",
+    "time" : {
+      "start" : 1683885158511,
+      "stop" : 1683885158511,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8e276e2938801db",
+      "name" : "log",
+      "source" : "8e276e2938801db.txt",
+      "type" : "text/plain",
+      "size" : 260
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "signin_page_object::0",
+    "time" : {
+      "start" : 1683885170950,
+      "stop" : 1683885171200,
+      "duration" : 250
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "skylift_page_object::0",
+    "time" : {
+      "start" : 1683885170946,
+      "stop" : 1683885170946,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "login::0",
+    "time" : {
+      "start" : 1683885170948,
+      "stop" : 1683885170948,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_skylift_booking"
+  }, {
+    "name" : "host",
+    "value" : "MSI"
+  }, {
+    "name" : "thread",
+    "value" : "10792-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_skylift_booking"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "faa09b64522cfb5d",
+      "status" : "failed",
+      "statusDetails" : "Failed: Button clicking failed",
+      "time" : {
+        "start" : 1683884942959,
+        "stop" : 1683884964045,
+        "duration" : 21086
+      }
+    }, {
+      "uid" : "abaf7ad82973da53",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL reason: User has already joined the event\n\n_pytest.outcomes.XFailed: User has already joined the event",
+      "time" : {
+        "start" : 1683884541601,
+        "stop" : 1683884541847,
+        "duration" : 246
+      }
+    }, {
+      "uid" : "1e46237441f63860",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL reason: User has already joined the event\n\n_pytest.outcomes.XFailed: User has already joined the event",
+      "time" : {
+        "start" : 1683884260140,
+        "stop" : 1683884261134,
+        "duration" : 994
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 1,
+        "skipped" : 4,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "b9055e8c319d2bb",
+        "reportUrl" : "nulljob/Nbyula/58/allure/#testresult/b9055e8c319d2bb",
+        "status" : "failed",
+        "statusDetails" : "Failed: Button clicking failed",
+        "time" : {
+          "start" : 1683884942959,
+          "stop" : 1683884964045,
+          "duration" : 21086
+        }
+      }, {
+        "uid" : "c6fb6d7480a932e0",
+        "reportUrl" : "nulljob/Nbyula/57/allure/#testresult/c6fb6d7480a932e0",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: User has already joined the event\n\n_pytest.outcomes.XFailed: User has already joined the event",
+        "time" : {
+          "start" : 1683884541601,
+          "stop" : 1683884541847,
+          "duration" : 246
+        }
+      }, {
+        "uid" : "c21ecfee79f7fb2",
+        "reportUrl" : "nulljob/Nbyula/56/allure/#testresult/c21ecfee79f7fb2",
+        "status" : "skipped",
+        "statusDetails" : "XFAIL reason: User has already joined the event\n\n_pytest.outcomes.XFailed: User has already joined the event",
+        "time" : {
+          "start" : 1683884260140,
+          "stop" : 1683884261134,
+          "duration" : 994
+        }
+      }, {
+        "uid" : "83b3eb74d5570fd6",
+        "reportUrl" : "nulljob/Nbyula/55/allure/#testresult/83b3eb74d5570fd6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683880203300,
+          "stop" : 1683880218104,
+          "duration" : 14804
+        }
+      }, {
+        "uid" : "a6f8c94a87d526e0",
+        "reportUrl" : "nulljob/Nbyula/46/allure/#testresult/a6f8c94a87d526e0",
+        "status" : "broken",
+        "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'send_keys'",
+        "time" : {
+          "start" : 1683836010973,
+          "stop" : 1683836010973,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "be0715547479001d",
+        "reportUrl" : "nulljob/Nbyula/14/allure/#testresult/be0715547479001d",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: No Accounts available to login. Please check Test data folder.",
+        "time" : {
+          "start" : 1683576895095,
+          "stop" : 1683576895095,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3847fda920ab6cad",
+        "reportUrl" : "nulljob/Nbyula/13/allure/#testresult/3847fda920ab6cad",
+        "status" : "skipped",
+        "statusDetails" : "Skipped: No Accounts available to login. Please check Test data folder.",
+        "time" : {
+          "start" : 1683576895095,
+          "stop" : 1683576895095,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b04a4dcba703fdfb.json",
+  "parameterValues" : [ ]
+}

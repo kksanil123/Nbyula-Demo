@@ -1,0 +1,190 @@
+{
+  "uid" : "fd730beaff6e4c9f",
+  "name" : "test_email_signup_success",
+  "fullName" : "test_signup#test_email_signup_success",
+  "historyId" : "5e7e7a6eb8972861f0ffe853e98e6c3b",
+  "time" : {
+    "start" : 1683884911458,
+    "stop" : 1683884911458,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: uniqueContextId not found\n  (Session info: chrome=113.0.5672.93)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x0097DCE3+50899]\n\t(No symbol) [0x0090E111]\n\t(No symbol) [0x00815588]\n\t(No symbol) [0x00808862]\n\t(No symbol) [0x00807118]\n\t(No symbol) [0x0080778A]\n\t(No symbol) [0x0081CE34]\n\t(No symbol) [0x008179A0]\n\t(No symbol) [0x008174E1]\n\t(No symbol) [0x00817D4C]\n\t(No symbol) [0x00818030]\n\t(No symbol) [0x00840552]\n\t(No symbol) [0x00840AFB]\n\t(No symbol) [0x0086F902]\n\t(No symbol) [0x0085B944]\n\t(No symbol) [0x0086E01C]\n\t(No symbol) [0x0085B6F6]\n\t(No symbol) [0x00837708]\n\t(No symbol) [0x0083886D]\n\tGetHandleVerifier [0x00BE3EAE+2566302]\n\tGetHandleVerifier [0x00C192B1+2784417]\n\tGetHandleVerifier [0x00C1327C+2759788]\n\tGetHandleVerifier [0x00A15740+672048]\n\t(No symbol) [0x00918872]\n\t(No symbol) [0x009141C8]\n\t(No symbol) [0x009142AB]\n\t(No symbol) [0x009071B7]\n\tBaseThreadInitThunk [0x76BB0099+25]\n\tRtlGetAppContainerNamedObjectPath [0x775E7B6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x775E7B3E+238]",
+  "statusTrace" : "signup_page_object = <page_objects.signup_page.SignUpPage object at 0x000001FB642B9930>\nemail = 'Test5894@yopmail.com'\nrequest = <SubRequest 'email_signup' for <Function test_email_signup_success>>\npassword = '9Ki3Ki4Ki8'\n\n    @pytest.fixture()\n    def email_signup(signup_page_object, email, request, password):\n        logger.log(20, 'Email signup started.')\n        signup_page_object.set_email_field(email)\n        signup_page_object.click_continue_button()\n        signup_page_object.set_first_name('Kishore')\n        signup_page_object.set_last_name('Testing')\n        signup_page_object.set_password(password)\n        signup_page_object.click_signup_button()\n>       otp = request.getfixturevalue('fetch_otp')\n\ntest_cases\\test_signup.py:85: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\..\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\_pytest\\fixtures.py:570: in getfixturevalue\n    fixturedef = self._get_active_fixturedef(argname)\n..\\..\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\_pytest\\fixtures.py:592: in _get_active_fixturedef\n    self._compute_fixture_value(fixturedef)\n..\\..\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\_pytest\\fixtures.py:678: in _compute_fixture_value\n    fixturedef.execute(request=subrequest)\n..\\..\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\_pytest\\fixtures.py:1076: in execute\n    result = ihook.pytest_fixture_setup(fixturedef=self, request=request)\n..\\..\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\pluggy\\_hooks.py:265: in __call__\n    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)\n..\\..\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\pluggy\\_manager.py:80: in _hookexec\n    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)\n..\\..\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\_pytest\\fixtures.py:1130: in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n..\\..\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\_pytest\\fixtures.py:902: in call_fixture_func\n    fixture_result = next(generator)\ntest_cases\\test_signup.py:63: in fetch_otp\n    driver.find_element(By.XPATH, '//span[text()=\"Nbyula\"]').click()\n..\\..\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:831: in find_element\n    return self.execute(Command.FIND_ELEMENT, {\"using\": by, \"value\": value})[\"value\"]\n..\\..\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:440: in execute\n    self.error_handler.check_response(response)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x000001FB642B95A0>\nresponse = {'status': 400, 'value': '{\"value\":{\"error\":\"invalid argument\",\"message\":\"invalid argument: uniqueContextId not found\\...\\n\\\\tRtlGetAppContainerNamedObjectPath [0x775E7B6E+286]\\\\n\\\\tRtlGetAppContainerNamedObjectPath [0x775E7B3E+238]\\\\n\"}}'}\n\n    def check_response(self, response: Dict[str, Any]) -> None:\n        \"\"\"Checks that a JSON response from the WebDriver does not have an\n        error.\n    \n        :Args:\n         - response - The JSON response from the WebDriver server as a dictionary\n           object.\n    \n        :Raises: If the response contains an error message.\n        \"\"\"\n        status = response.get(\"status\", None)\n        if not status or status == ErrorCode.SUCCESS:\n            return\n        value = None\n        message = response.get(\"message\", \"\")\n        screen: str = response.get(\"screen\", \"\")\n        stacktrace = None\n        if isinstance(status, int):\n            value_json = response.get(\"value\", None)\n            if value_json and isinstance(value_json, str):\n                import json\n    \n                try:\n                    value = json.loads(value_json)\n                    if len(value) == 1:\n                        value = value[\"value\"]\n                    status = value.get(\"error\", None)\n                    if not status:\n                        status = value.get(\"status\", ErrorCode.UNKNOWN_ERROR)\n                        message = value.get(\"value\") or value.get(\"message\")\n                        if not isinstance(message, str):\n                            value = message\n                            message = message.get(\"message\")\n                    else:\n                        message = value.get(\"message\", None)\n                except ValueError:\n                    pass\n    \n        exception_class: Type[WebDriverException]\n        if status in ErrorCode.NO_SUCH_ELEMENT:\n            exception_class = NoSuchElementException\n        elif status in ErrorCode.NO_SUCH_FRAME:\n            exception_class = NoSuchFrameException\n        elif status in ErrorCode.NO_SUCH_SHADOW_ROOT:\n            exception_class = NoSuchShadowRootException\n        elif status in ErrorCode.NO_SUCH_WINDOW:\n            exception_class = NoSuchWindowException\n        elif status in ErrorCode.STALE_ELEMENT_REFERENCE:\n            exception_class = StaleElementReferenceException\n        elif status in ErrorCode.ELEMENT_NOT_VISIBLE:\n            exception_class = ElementNotVisibleException\n        elif status in ErrorCode.INVALID_ELEMENT_STATE:\n            exception_class = InvalidElementStateException\n        elif (\n            status in ErrorCode.INVALID_SELECTOR\n            or status in ErrorCode.INVALID_XPATH_SELECTOR\n            or status in ErrorCode.INVALID_XPATH_SELECTOR_RETURN_TYPER\n        ):\n            exception_class = InvalidSelectorException\n        elif status in ErrorCode.ELEMENT_IS_NOT_SELECTABLE:\n            exception_class = ElementNotSelectableException\n        elif status in ErrorCode.ELEMENT_NOT_INTERACTABLE:\n            exception_class = ElementNotInteractableException\n        elif status in ErrorCode.INVALID_COOKIE_DOMAIN:\n            exception_class = InvalidCookieDomainException\n        elif status in ErrorCode.UNABLE_TO_SET_COOKIE:\n            exception_class = UnableToSetCookieException\n        elif status in ErrorCode.TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.SCRIPT_TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.UNKNOWN_ERROR:\n            exception_class = WebDriverException\n        elif status in ErrorCode.UNEXPECTED_ALERT_OPEN:\n            exception_class = UnexpectedAlertPresentException\n        elif status in ErrorCode.NO_ALERT_OPEN:\n            exception_class = NoAlertPresentException\n        elif status in ErrorCode.IME_NOT_AVAILABLE:\n            exception_class = ImeNotAvailableException\n        elif status in ErrorCode.IME_ENGINE_ACTIVATION_FAILED:\n            exception_class = ImeActivationFailedException\n        elif status in ErrorCode.MOVE_TARGET_OUT_OF_BOUNDS:\n            exception_class = MoveTargetOutOfBoundsException\n        elif status in ErrorCode.JAVASCRIPT_ERROR:\n            exception_class = JavascriptException\n        elif status in ErrorCode.SESSION_NOT_CREATED:\n            exception_class = SessionNotCreatedException\n        elif status in ErrorCode.INVALID_ARGUMENT:\n            exception_class = InvalidArgumentException\n        elif status in ErrorCode.NO_SUCH_COOKIE:\n            exception_class = NoSuchCookieException\n        elif status in ErrorCode.UNABLE_TO_CAPTURE_SCREEN:\n            exception_class = ScreenshotException\n        elif status in ErrorCode.ELEMENT_CLICK_INTERCEPTED:\n            exception_class = ElementClickInterceptedException\n        elif status in ErrorCode.INSECURE_CERTIFICATE:\n            exception_class = InsecureCertificateException\n        elif status in ErrorCode.INVALID_COORDINATES:\n            exception_class = InvalidCoordinatesException\n        elif status in ErrorCode.INVALID_SESSION_ID:\n            exception_class = InvalidSessionIdException\n        elif status in ErrorCode.UNKNOWN_METHOD:\n            exception_class = UnknownMethodException\n        else:\n            exception_class = WebDriverException\n        if not value:\n            value = response[\"value\"]\n        if isinstance(value, str):\n            raise exception_class(value)\n        if message == \"\" and \"message\" in value:\n            message = value[\"message\"]\n    \n        screen = None  # type: ignore[assignment]\n        if \"screen\" in value:\n            screen = value[\"screen\"]\n    \n        stacktrace = None\n        st_value = value.get(\"stackTrace\") or value.get(\"stacktrace\")\n        if st_value:\n            if isinstance(st_value, str):\n                stacktrace = st_value.split(\"\\n\")\n            else:\n                stacktrace = []\n                try:\n                    for frame in st_value:\n                        line = frame.get(\"lineNumber\", \"\")\n                        file = frame.get(\"fileName\", \"<anonymous>\")\n                        if line:\n                            file = f\"{file}:{line}\"\n                        meth = frame.get(\"methodName\", \"<anonymous>\")\n                        if \"className\" in frame:\n                            meth = f\"{frame['className']}.{meth}\"\n                        msg = \"    at %s (%s)\"\n                        msg = msg % (meth, file)\n                        stacktrace.append(msg)\n                except TypeError:\n                    pass\n        if exception_class == UnexpectedAlertPresentException:\n            alert_text = None\n            if \"data\" in value:\n                alert_text = value[\"data\"].get(\"text\")\n            elif \"alert\" in value:\n                alert_text = value[\"alert\"].get(\"text\")\n            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here\n>       raise exception_class(message, screen, stacktrace)\nE       selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: uniqueContextId not found\nE         (Session info: chrome=113.0.5672.93)\nE       Stacktrace:\nE       Backtrace:\nE       \tGetHandleVerifier [0x0097DCE3+50899]\nE       \t(No symbol) [0x0090E111]\nE       \t(No symbol) [0x00815588]\nE       \t(No symbol) [0x00808862]\nE       \t(No symbol) [0x00807118]\nE       \t(No symbol) [0x0080778A]\nE       \t(No symbol) [0x0081CE34]\nE       \t(No symbol) [0x008179A0]\nE       \t(No symbol) [0x008174E1]\nE       \t(No symbol) [0x00817D4C]\nE       \t(No symbol) [0x00818030]\nE       \t(No symbol) [0x00840552]\nE       \t(No symbol) [0x00840AFB]\nE       \t(No symbol) [0x0086F902]\nE       \t(No symbol) [0x0085B944]\nE       \t(No symbol) [0x0086E01C]\nE       \t(No symbol) [0x0085B6F6]\nE       \t(No symbol) [0x00837708]\nE       \t(No symbol) [0x0083886D]\nE       \tGetHandleVerifier [0x00BE3EAE+2566302]\nE       \tGetHandleVerifier [0x00C192B1+2784417]\nE       \tGetHandleVerifier [0x00C1327C+2759788]\nE       \tGetHandleVerifier [0x00A15740+672048]\nE       \t(No symbol) [0x00918872]\nE       \t(No symbol) [0x009141C8]\nE       \t(No symbol) [0x009142AB]\nE       \t(No symbol) [0x009071B7]\nE       \tBaseThreadInitThunk [0x76BB0099+25]\nE       \tRtlGetAppContainerNamedObjectPath [0x775E7B6E+286]\nE       \tRtlGetAppContainerNamedObjectPath [0x775E7B3E+238]\n\n..\\..\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py:245: InvalidArgumentException",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1683884911459,
+      "stop" : 1683884913883,
+      "duration" : 2424
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "email_signup",
+    "time" : {
+      "start" : 1683884916410,
+      "stop" : 1683884924162,
+      "duration" : 7752
+    },
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: uniqueContextId not found\n  (Session info: chrome=113.0.5672.93)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x0097DCE3+50899]\n\t(No symbol) [0x0090E111]\n\t(No symbol) [0x00815588]\n\t(No symbol) [0x00808862]\n\t(No symbol) [0x00807118]\n\t(No symbol) [0x0080778A]\n\t(No symbol) [0x0081CE34]\n\t(No symbol) [0x008179A0]\n\t(No symbol) [0x008174E1]\n\t(No symbol) [0x00817D4C]\n\t(No symbol) [0x00818030]\n\t(No symbol) [0x00840552]\n\t(No symbol) [0x00840AFB]\n\t(No symbol) [0x0086F902]\n\t(No symbol) [0x0085B944]\n\t(No symbol) [0x0086E01C]\n\t(No symbol) [0x0085B6F6]\n\t(No symbol) [0x00837708]\n\t(No symbol) [0x0083886D]\n\tGetHandleVerifier [0x00BE3EAE+2566302]\n\tGetHandleVerifier [0x00C192B1+2784417]\n\tGetHandleVerifier [0x00C1327C+2759788]\n\tGetHandleVerifier [0x00A15740+672048]\n\t(No symbol) [0x00918872]\n\t(No symbol) [0x009141C8]\n\t(No symbol) [0x009142AB]\n\t(No symbol) [0x009071B7]\n\tBaseThreadInitThunk [0x76BB0099+25]\n\tRtlGetAppContainerNamedObjectPath [0x775E7B6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x775E7B3E+238]\n\n",
+    "statusTrace" : "  File \"C:\\Users\\karla\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\pluggy\\_callers.py\", line 39, in _multicall\n    res = hook_impl.function(*args)\n  File \"C:\\Users\\karla\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\_pytest\\fixtures.py\", line 1130, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"C:\\Users\\karla\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\_pytest\\fixtures.py\", line 902, in call_fixture_func\n    fixture_result = next(generator)\n  File \"C:\\Users\\karla\\PycharmProjects\\Nbyula\\test_cases\\test_signup.py\", line 85, in email_signup\n    otp = request.getfixturevalue('fetch_otp')\n  File \"C:\\Users\\karla\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\_pytest\\fixtures.py\", line 570, in getfixturevalue\n    fixturedef = self._get_active_fixturedef(argname)\n  File \"C:\\Users\\karla\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\_pytest\\fixtures.py\", line 592, in _get_active_fixturedef\n    self._compute_fixture_value(fixturedef)\n  File \"C:\\Users\\karla\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\_pytest\\fixtures.py\", line 678, in _compute_fixture_value\n    fixturedef.execute(request=subrequest)\n  File \"C:\\Users\\karla\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\_pytest\\fixtures.py\", line 1076, in execute\n    result = ihook.pytest_fixture_setup(fixturedef=self, request=request)\n  File \"C:\\Users\\karla\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\pluggy\\_hooks.py\", line 265, in __call__\n    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)\n  File \"C:\\Users\\karla\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\pluggy\\_manager.py\", line 80, in _hookexec\n    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)\n  File \"C:\\Users\\karla\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\pluggy\\_callers.py\", line 60, in _multicall\n    return outcome.get_result()\n  File \"C:\\Users\\karla\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\pluggy\\_result.py\", line 60, in get_result\n    raise ex[1].with_traceback(ex[2])\n  File \"C:\\Users\\karla\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\pluggy\\_callers.py\", line 39, in _multicall\n    res = hook_impl.function(*args)\n  File \"C:\\Users\\karla\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\_pytest\\fixtures.py\", line 1130, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"C:\\Users\\karla\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\_pytest\\fixtures.py\", line 902, in call_fixture_func\n    fixture_result = next(generator)\n  File \"C:\\Users\\karla\\PycharmProjects\\Nbyula\\test_cases\\test_signup.py\", line 63, in fetch_otp\n    driver.find_element(By.XPATH, '//span[text()=\"Nbyula\"]').click()\n  File \"C:\\Users\\karla\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 831, in find_element\n    return self.execute(Command.FIND_ELEMENT, {\"using\": by, \"value\": value})[\"value\"]\n  File \"C:\\Users\\karla\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 440, in execute\n    self.error_handler.check_response(response)\n  File \"C:\\Users\\karla\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 0
+  }, {
+    "name" : "signup_page_object",
+    "time" : {
+      "start" : 1683884913888,
+      "stop" : 1683884916410,
+      "duration" : 2522
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "home_page_object",
+    "time" : {
+      "start" : 1683884913883,
+      "stop" : 1683884913888,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "password",
+    "time" : {
+      "start" : 1683884911459,
+      "stop" : 1683884911459,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "email",
+    "time" : {
+      "start" : 1683884911459,
+      "stop" : 1683884911459,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: uniqueContextId not found\n  (Session info: chrome=113.0.5672.93)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x0097DCE3+50899]\n\t(No symbol) [0x0090E111]\n\t(No symbol) [0x00815588]\n\t(No symbol) [0x00808862]\n\t(No symbol) [0x00807118]\n\t(No symbol) [0x0080778A]\n\t(No symbol) [0x0081CE34]\n\t(No symbol) [0x008179A0]\n\t(No symbol) [0x008174E1]\n\t(No symbol) [0x00817D4C]\n\t(No symbol) [0x00818030]\n\t(No symbol) [0x00840552]\n\t(No symbol) [0x00840AFB]\n\t(No symbol) [0x0086F902]\n\t(No symbol) [0x0085B944]\n\t(No symbol) [0x0086E01C]\n\t(No symbol) [0x0085B6F6]\n\t(No symbol) [0x00837708]\n\t(No symbol) [0x0083886D]\n\tGetHandleVerifier [0x00BE3EAE+2566302]\n\tGetHandleVerifier [0x00C192B1+2784417]\n\tGetHandleVerifier [0x00C1327C+2759788]\n\tGetHandleVerifier [0x00A15740+672048]\n\t(No symbol) [0x00918872]\n\t(No symbol) [0x009141C8]\n\t(No symbol) [0x009142AB]\n\t(No symbol) [0x009071B7]\n\tBaseThreadInitThunk [0x76BB0099+25]\n\tRtlGetAppContainerNamedObjectPath [0x775E7B6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x775E7B3E+238]",
+    "statusTrace" : "signup_page_object = <page_objects.signup_page.SignUpPage object at 0x000001FB642B9930>\nemail = 'Test5894@yopmail.com'\nrequest = <SubRequest 'email_signup' for <Function test_email_signup_success>>\npassword = '9Ki3Ki4Ki8'\n\n    @pytest.fixture()\n    def email_signup(signup_page_object, email, request, password):\n        logger.log(20, 'Email signup started.')\n        signup_page_object.set_email_field(email)\n        signup_page_object.click_continue_button()\n        signup_page_object.set_first_name('Kishore')\n        signup_page_object.set_last_name('Testing')\n        signup_page_object.set_password(password)\n        signup_page_object.click_signup_button()\n>       otp = request.getfixturevalue('fetch_otp')\n\ntest_cases\\test_signup.py:85: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\..\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\_pytest\\fixtures.py:570: in getfixturevalue\n    fixturedef = self._get_active_fixturedef(argname)\n..\\..\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\_pytest\\fixtures.py:592: in _get_active_fixturedef\n    self._compute_fixture_value(fixturedef)\n..\\..\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\_pytest\\fixtures.py:678: in _compute_fixture_value\n    fixturedef.execute(request=subrequest)\n..\\..\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\_pytest\\fixtures.py:1076: in execute\n    result = ihook.pytest_fixture_setup(fixturedef=self, request=request)\n..\\..\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\pluggy\\_hooks.py:265: in __call__\n    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)\n..\\..\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\pluggy\\_manager.py:80: in _hookexec\n    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)\n..\\..\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\_pytest\\fixtures.py:1130: in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n..\\..\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\_pytest\\fixtures.py:902: in call_fixture_func\n    fixture_result = next(generator)\ntest_cases\\test_signup.py:63: in fetch_otp\n    driver.find_element(By.XPATH, '//span[text()=\"Nbyula\"]').click()\n..\\..\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:831: in find_element\n    return self.execute(Command.FIND_ELEMENT, {\"using\": by, \"value\": value})[\"value\"]\n..\\..\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:440: in execute\n    self.error_handler.check_response(response)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x000001FB642B95A0>\nresponse = {'status': 400, 'value': '{\"value\":{\"error\":\"invalid argument\",\"message\":\"invalid argument: uniqueContextId not found\\...\\n\\\\tRtlGetAppContainerNamedObjectPath [0x775E7B6E+286]\\\\n\\\\tRtlGetAppContainerNamedObjectPath [0x775E7B3E+238]\\\\n\"}}'}\n\n    def check_response(self, response: Dict[str, Any]) -> None:\n        \"\"\"Checks that a JSON response from the WebDriver does not have an\n        error.\n    \n        :Args:\n         - response - The JSON response from the WebDriver server as a dictionary\n           object.\n    \n        :Raises: If the response contains an error message.\n        \"\"\"\n        status = response.get(\"status\", None)\n        if not status or status == ErrorCode.SUCCESS:\n            return\n        value = None\n        message = response.get(\"message\", \"\")\n        screen: str = response.get(\"screen\", \"\")\n        stacktrace = None\n        if isinstance(status, int):\n            value_json = response.get(\"value\", None)\n            if value_json and isinstance(value_json, str):\n                import json\n    \n                try:\n                    value = json.loads(value_json)\n                    if len(value) == 1:\n                        value = value[\"value\"]\n                    status = value.get(\"error\", None)\n                    if not status:\n                        status = value.get(\"status\", ErrorCode.UNKNOWN_ERROR)\n                        message = value.get(\"value\") or value.get(\"message\")\n                        if not isinstance(message, str):\n                            value = message\n                            message = message.get(\"message\")\n                    else:\n                        message = value.get(\"message\", None)\n                except ValueError:\n                    pass\n    \n        exception_class: Type[WebDriverException]\n        if status in ErrorCode.NO_SUCH_ELEMENT:\n            exception_class = NoSuchElementException\n        elif status in ErrorCode.NO_SUCH_FRAME:\n            exception_class = NoSuchFrameException\n        elif status in ErrorCode.NO_SUCH_SHADOW_ROOT:\n            exception_class = NoSuchShadowRootException\n        elif status in ErrorCode.NO_SUCH_WINDOW:\n            exception_class = NoSuchWindowException\n        elif status in ErrorCode.STALE_ELEMENT_REFERENCE:\n            exception_class = StaleElementReferenceException\n        elif status in ErrorCode.ELEMENT_NOT_VISIBLE:\n            exception_class = ElementNotVisibleException\n        elif status in ErrorCode.INVALID_ELEMENT_STATE:\n            exception_class = InvalidElementStateException\n        elif (\n            status in ErrorCode.INVALID_SELECTOR\n            or status in ErrorCode.INVALID_XPATH_SELECTOR\n            or status in ErrorCode.INVALID_XPATH_SELECTOR_RETURN_TYPER\n        ):\n            exception_class = InvalidSelectorException\n        elif status in ErrorCode.ELEMENT_IS_NOT_SELECTABLE:\n            exception_class = ElementNotSelectableException\n        elif status in ErrorCode.ELEMENT_NOT_INTERACTABLE:\n            exception_class = ElementNotInteractableException\n        elif status in ErrorCode.INVALID_COOKIE_DOMAIN:\n            exception_class = InvalidCookieDomainException\n        elif status in ErrorCode.UNABLE_TO_SET_COOKIE:\n            exception_class = UnableToSetCookieException\n        elif status in ErrorCode.TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.SCRIPT_TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.UNKNOWN_ERROR:\n            exception_class = WebDriverException\n        elif status in ErrorCode.UNEXPECTED_ALERT_OPEN:\n            exception_class = UnexpectedAlertPresentException\n        elif status in ErrorCode.NO_ALERT_OPEN:\n            exception_class = NoAlertPresentException\n        elif status in ErrorCode.IME_NOT_AVAILABLE:\n            exception_class = ImeNotAvailableException\n        elif status in ErrorCode.IME_ENGINE_ACTIVATION_FAILED:\n            exception_class = ImeActivationFailedException\n        elif status in ErrorCode.MOVE_TARGET_OUT_OF_BOUNDS:\n            exception_class = MoveTargetOutOfBoundsException\n        elif status in ErrorCode.JAVASCRIPT_ERROR:\n            exception_class = JavascriptException\n        elif status in ErrorCode.SESSION_NOT_CREATED:\n            exception_class = SessionNotCreatedException\n        elif status in ErrorCode.INVALID_ARGUMENT:\n            exception_class = InvalidArgumentException\n        elif status in ErrorCode.NO_SUCH_COOKIE:\n            exception_class = NoSuchCookieException\n        elif status in ErrorCode.UNABLE_TO_CAPTURE_SCREEN:\n            exception_class = ScreenshotException\n        elif status in ErrorCode.ELEMENT_CLICK_INTERCEPTED:\n            exception_class = ElementClickInterceptedException\n        elif status in ErrorCode.INSECURE_CERTIFICATE:\n            exception_class = InsecureCertificateException\n        elif status in ErrorCode.INVALID_COORDINATES:\n            exception_class = InvalidCoordinatesException\n        elif status in ErrorCode.INVALID_SESSION_ID:\n            exception_class = InvalidSessionIdException\n        elif status in ErrorCode.UNKNOWN_METHOD:\n            exception_class = UnknownMethodException\n        else:\n            exception_class = WebDriverException\n        if not value:\n            value = response[\"value\"]\n        if isinstance(value, str):\n            raise exception_class(value)\n        if message == \"\" and \"message\" in value:\n            message = value[\"message\"]\n    \n        screen = None  # type: ignore[assignment]\n        if \"screen\" in value:\n            screen = value[\"screen\"]\n    \n        stacktrace = None\n        st_value = value.get(\"stackTrace\") or value.get(\"stacktrace\")\n        if st_value:\n            if isinstance(st_value, str):\n                stacktrace = st_value.split(\"\\n\")\n            else:\n                stacktrace = []\n                try:\n                    for frame in st_value:\n                        line = frame.get(\"lineNumber\", \"\")\n                        file = frame.get(\"fileName\", \"<anonymous>\")\n                        if line:\n                            file = f\"{file}:{line}\"\n                        meth = frame.get(\"methodName\", \"<anonymous>\")\n                        if \"className\" in frame:\n                            meth = f\"{frame['className']}.{meth}\"\n                        msg = \"    at %s (%s)\"\n                        msg = msg % (meth, file)\n                        stacktrace.append(msg)\n                except TypeError:\n                    pass\n        if exception_class == UnexpectedAlertPresentException:\n            alert_text = None\n            if \"data\" in value:\n                alert_text = value[\"data\"].get(\"text\")\n            elif \"alert\" in value:\n                alert_text = value[\"alert\"].get(\"text\")\n            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here\n>       raise exception_class(message, screen, stacktrace)\nE       selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: uniqueContextId not found\nE         (Session info: chrome=113.0.5672.93)\nE       Stacktrace:\nE       Backtrace:\nE       \tGetHandleVerifier [0x0097DCE3+50899]\nE       \t(No symbol) [0x0090E111]\nE       \t(No symbol) [0x00815588]\nE       \t(No symbol) [0x00808862]\nE       \t(No symbol) [0x00807118]\nE       \t(No symbol) [0x0080778A]\nE       \t(No symbol) [0x0081CE34]\nE       \t(No symbol) [0x008179A0]\nE       \t(No symbol) [0x008174E1]\nE       \t(No symbol) [0x00817D4C]\nE       \t(No symbol) [0x00818030]\nE       \t(No symbol) [0x00840552]\nE       \t(No symbol) [0x00840AFB]\nE       \t(No symbol) [0x0086F902]\nE       \t(No symbol) [0x0085B944]\nE       \t(No symbol) [0x0086E01C]\nE       \t(No symbol) [0x0085B6F6]\nE       \t(No symbol) [0x00837708]\nE       \t(No symbol) [0x0083886D]\nE       \tGetHandleVerifier [0x00BE3EAE+2566302]\nE       \tGetHandleVerifier [0x00C192B1+2784417]\nE       \tGetHandleVerifier [0x00C1327C+2759788]\nE       \tGetHandleVerifier [0x00A15740+672048]\nE       \t(No symbol) [0x00918872]\nE       \t(No symbol) [0x009141C8]\nE       \t(No symbol) [0x009142AB]\nE       \t(No symbol) [0x009071B7]\nE       \tBaseThreadInitThunk [0x76BB0099+25]\nE       \tRtlGetAppContainerNamedObjectPath [0x775E7B6E+286]\nE       \tRtlGetAppContainerNamedObjectPath [0x775E7B3E+238]\n\n..\\..\\.virtualenvs\\Nbyula-2OGmMT6a\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py:245: InvalidArgumentException",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "233668cac797d107",
+      "name" : "log",
+      "source" : "233668cac797d107.txt",
+      "type" : "text/plain",
+      "size" : 111
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "signup_page_object::0",
+    "time" : {
+      "start" : 1683884926531,
+      "stop" : 1683884926531,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "home_page_object::0",
+    "time" : {
+      "start" : 1683884926534,
+      "stop" : 1683884930669,
+      "duration" : 4135
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_signup"
+  }, {
+    "name" : "host",
+    "value" : "MSI"
+  }, {
+    "name" : "thread",
+    "value" : "8976-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_signup"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fd730beaff6e4c9f.json",
+  "parameterValues" : [ ]
+}

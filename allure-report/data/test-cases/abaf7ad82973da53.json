@@ -1,0 +1,203 @@
+{
+  "uid" : "abaf7ad82973da53",
+  "name" : "test_book_skylift",
+  "fullName" : "test_skylift_booking#test_book_skylift",
+  "historyId" : "d59ae060ea4cb92bfc32bae96eda5adc",
+  "time" : {
+    "start" : 1683884541601,
+    "stop" : 1683884541847,
+    "duration" : 246
+  },
+  "status" : "skipped",
+  "statusMessage" : "XFAIL reason: User has already joined the event\n\n_pytest.outcomes.XFailed: User has already joined the event",
+  "statusTrace" : "login = True\nskylift_page_object = <page_objects.book_skylift.SkyLift object at 0x000001C8D5AB4A90>\nmobile_no = 2656608922\n\n    def test_book_skylift(login, skylift_page_object, mobile_no):\n        logger.log(20, 'Skylift booking Test started.')\n        if login:\n            logger.log(20, 'Login successful')\n            if skylift_page_object.bookinig_status() =='Join Conversation':\n>               pytest.xfail(\"User has already joined the event\")\nE               _pytest.outcomes.XFailed: User has already joined the event\n\ntest_cases\\test_skylift_booking.py:63: XFailed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "signin_page_object",
+    "time" : {
+      "start" : 1683884530555,
+      "stop" : 1683884533464,
+      "duration" : 2909
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "login",
+    "time" : {
+      "start" : 1683884533464,
+      "stop" : 1683884534948,
+      "duration" : 1484
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "skylift_page_object",
+    "time" : {
+      "start" : 1683884534949,
+      "stop" : 1683884541599,
+      "duration" : 6650
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "mobile_no",
+    "time" : {
+      "start" : 1683884541600,
+      "stop" : 1683884541600,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "login_details",
+    "time" : {
+      "start" : 1683884533464,
+      "stop" : 1683884533464,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1683884528167,
+      "stop" : 1683884530555,
+      "duration" : 2388
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "XFAIL reason: User has already joined the event\n\n_pytest.outcomes.XFailed: User has already joined the event",
+    "statusTrace" : "login = True\nskylift_page_object = <page_objects.book_skylift.SkyLift object at 0x000001C8D5AB4A90>\nmobile_no = 2656608922\n\n    def test_book_skylift(login, skylift_page_object, mobile_no):\n        logger.log(20, 'Skylift booking Test started.')\n        if login:\n            logger.log(20, 'Login successful')\n            if skylift_page_object.bookinig_status() =='Join Conversation':\n>               pytest.xfail(\"User has already joined the event\")\nE               _pytest.outcomes.XFailed: User has already joined the event\n\ntest_cases\\test_skylift_booking.py:63: XFailed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8f43cb71a2579f2e",
+      "name" : "log",
+      "source" : "8f43cb71a2579f2e.txt",
+      "type" : "text/plain",
+      "size" : 191
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "signin_page_object::0",
+    "time" : {
+      "start" : 1683884541871,
+      "stop" : 1683884542144,
+      "duration" : 273
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "login::0",
+    "time" : {
+      "start" : 1683884541864,
+      "stop" : 1683884541864,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "skylift_page_object::0",
+    "time" : {
+      "start" : 1683884541860,
+      "stop" : 1683884541860,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_skylift_booking"
+  }, {
+    "name" : "host",
+    "value" : "MSI"
+  }, {
+    "name" : "thread",
+    "value" : "17568-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_skylift_booking"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "abaf7ad82973da53.json",
+  "parameterValues" : [ ]
+}

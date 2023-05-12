@@ -1,14 +1,252 @@
 {
+  "5e7e7a6eb8972861f0ffe853e98e6c3b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 6,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 8
+    },
+    "items" : [ {
+      "uid" : "efce3744d026fda5",
+      "reportUrl" : "nulljob/Nbyula/59/allure/#testresult/efce3744d026fda5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683885136654,
+        "stop" : 1683885137645,
+        "duration" : 991
+      }
+    }, {
+      "uid" : "4f4adb57bca868bc",
+      "reportUrl" : "nulljob/Nbyula/58/allure/#testresult/4f4adb57bca868bc",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: uniqueContextId not found\n  (Session info: chrome=113.0.5672.93)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x0097DCE3+50899]\n\t(No symbol) [0x0090E111]\n\t(No symbol) [0x00815588]\n\t(No symbol) [0x00808862]\n\t(No symbol) [0x00807118]\n\t(No symbol) [0x0080778A]\n\t(No symbol) [0x0081CE34]\n\t(No symbol) [0x008179A0]\n\t(No symbol) [0x008174E1]\n\t(No symbol) [0x00817D4C]\n\t(No symbol) [0x00818030]\n\t(No symbol) [0x00840552]\n\t(No symbol) [0x00840AFB]\n\t(No symbol) [0x0086F902]\n\t(No symbol) [0x0085B944]\n\t(No symbol) [0x0086E01C]\n\t(No symbol) [0x0085B6F6]\n\t(No symbol) [0x00837708]\n\t(No symbol) [0x0083886D]\n\tGetHandleVerifier [0x00BE3EAE+2566302]\n\tGetHandleVerifier [0x00C192B1+2784417]\n\tGetHandleVerifier [0x00C1327C+2759788]\n\tGetHandleVerifier [0x00A15740+672048]\n\t(No symbol) [0x00918872]\n\t(No symbol) [0x009141C8]\n\t(No symbol) [0x009142AB]\n\t(No symbol) [0x009071B7]\n\tBaseThreadInitThunk [0x76BB0099+25]\n\tRtlGetAppContainerNamedObjectPath [0x775E7B6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x775E7B3E+238]",
+      "time" : {
+        "start" : 1683884911458,
+        "stop" : 1683884911458,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "682409e1cb6ae121",
+      "reportUrl" : "nulljob/Nbyula/57/allure/#testresult/682409e1cb6ae121",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: uniqueContextId not found\n  (Session info: chrome=113.0.5672.93)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x0097DCE3+50899]\n\t(No symbol) [0x0090E111]\n\t(No symbol) [0x00815588]\n\t(No symbol) [0x00808862]\n\t(No symbol) [0x00807118]\n\t(No symbol) [0x0080778A]\n\t(No symbol) [0x0081CE34]\n\t(No symbol) [0x008179A0]\n\t(No symbol) [0x008174E1]\n\t(No symbol) [0x00817D4C]\n\t(No symbol) [0x00818030]\n\t(No symbol) [0x00840552]\n\t(No symbol) [0x00840AFB]\n\t(No symbol) [0x0086F902]\n\t(No symbol) [0x0085B944]\n\t(No symbol) [0x0086E01C]\n\t(No symbol) [0x0085B6F6]\n\t(No symbol) [0x00837708]\n\t(No symbol) [0x0083886D]\n\tGetHandleVerifier [0x00BE3EAE+2566302]\n\tGetHandleVerifier [0x00C192B1+2784417]\n\tGetHandleVerifier [0x00C1327C+2759788]\n\tGetHandleVerifier [0x00A15740+672048]\n\t(No symbol) [0x00918872]\n\t(No symbol) [0x009141C8]\n\t(No symbol) [0x009142AB]\n\t(No symbol) [0x009071B7]\n\tBaseThreadInitThunk [0x76BB0099+25]\n\tRtlGetAppContainerNamedObjectPath [0x775E7B6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x775E7B3E+238]",
+      "time" : {
+        "start" : 1683884510102,
+        "stop" : 1683884510102,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "874959d7d4098a25",
+      "reportUrl" : "nulljob/Nbyula/56/allure/#testresult/874959d7d4098a25",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[text()=\"Nbyula\"]\"}\n  (Session info: chrome=113.0.5672.93)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x0097DCE3+50899]\n\t(No symbol) [0x0090E111]\n\t(No symbol) [0x00815588]\n\t(No symbol) [0x008408F9]\n\t(No symbol) [0x00840AFB]\n\t(No symbol) [0x0086F902]\n\t(No symbol) [0x0085B944]\n\t(No symbol) [0x0086E01C]\n\t(No symbol) [0x0085B6F6]\n\t(No symbol) [0x00837708]\n\t(No symbol) [0x0083886D]\n\tGetHandleVerifier [0x00BE3EAE+2566302]\n\tGetHandleVerifier [0x00C192B1+2784417]\n\tGetHandleVerifier [0x00C1327C+2759788]\n\tGetHandleVerifier [0x00A15740+672048]\n\t(No symbol) [0x00918872]\n\t(No symbol) [0x009141C8]\n\t(No symbol) [0x009142AB]\n\t(No symbol) [0x009071B7]\n\tBaseThreadInitThunk [0x76BB0099+25]\n\tRtlGetAppContainerNamedObjectPath [0x775E7B6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x775E7B3E+238]",
+      "time" : {
+        "start" : 1683884222162,
+        "stop" : 1683884222162,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "45a49b991a3cf297",
+      "reportUrl" : "nulljob/Nbyula/55/allure/#testresult/45a49b991a3cf297",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683880180210,
+        "stop" : 1683880181658,
+        "duration" : 1448
+      }
+    }, {
+      "uid" : "12f6fd870d03b9cb",
+      "reportUrl" : "nulljob/Nbyula/46/allure/#testresult/12f6fd870d03b9cb",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'send_keys'",
+      "time" : {
+        "start" : 1683835994269,
+        "stop" : 1683835994269,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f82b34f867830f75",
+      "reportUrl" : "nulljob/Nbyula/14/allure/#testresult/f82b34f867830f75",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=113.0.5672.64)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x00A2DCE3+50899]\n\t(No symbol) [0x009BE111]\n\t(No symbol) [0x008C5588]\n\t(No symbol) [0x008AD333]\n\t(No symbol) [0x0090F4DB]\n\t(No symbol) [0x0091DB33]\n\t(No symbol) [0x0090B6F6]\n\t(No symbol) [0x008E7708]\n\t(No symbol) [0x008E886D]\n\tGetHandleVerifier [0x00C93EAE+2566302]\n\tGetHandleVerifier [0x00CC92B1+2784417]\n\tGetHandleVerifier [0x00CC327C+2759788]\n\tGetHandleVerifier [0x00AC5740+672048]\n\t(No symbol) [0x009C8872]\n\t(No symbol) [0x009C41C8]\n\t(No symbol) [0x009C42AB]\n\t(No symbol) [0x009B71B7]\n\tBaseThreadInitThunk [0x75860099+25]\n\tRtlGetAppContainerNamedObjectPath [0x779C7B6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x779C7B3E+238]",
+      "time" : {
+        "start" : 1683576887366,
+        "stop" : 1683576887366,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "efdd042b6fac9440",
+      "reportUrl" : "nulljob/Nbyula/13/allure/#testresult/efdd042b6fac9440",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=113.0.5672.64)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x00A2DCE3+50899]\n\t(No symbol) [0x009BE111]\n\t(No symbol) [0x008C5588]\n\t(No symbol) [0x008AD333]\n\t(No symbol) [0x0090F4DB]\n\t(No symbol) [0x0091DB33]\n\t(No symbol) [0x0090B6F6]\n\t(No symbol) [0x008E7708]\n\t(No symbol) [0x008E886D]\n\tGetHandleVerifier [0x00C93EAE+2566302]\n\tGetHandleVerifier [0x00CC92B1+2784417]\n\tGetHandleVerifier [0x00CC327C+2759788]\n\tGetHandleVerifier [0x00AC5740+672048]\n\t(No symbol) [0x009C8872]\n\t(No symbol) [0x009C41C8]\n\t(No symbol) [0x009C42AB]\n\t(No symbol) [0x009B71B7]\n\tBaseThreadInitThunk [0x75860099+25]\n\tRtlGetAppContainerNamedObjectPath [0x779C7B6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x779C7B3E+238]",
+      "time" : {
+        "start" : 1683576887366,
+        "stop" : 1683576887366,
+        "duration" : 0
+      }
+    } ]
+  },
+  "8be450e30682a1760f52edeececded14" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 6
+    },
+    "items" : [ {
+      "uid" : "331efc440ae0387b",
+      "reportUrl" : "nulljob/Nbyula/59/allure/#testresult/331efc440ae0387b",
+      "status" : "failed",
+      "statusDetails" : "Failed: Test failed. No Ielts listings found.",
+      "time" : {
+        "start" : 1683885104484,
+        "stop" : 1683885109835,
+        "duration" : 5351
+      }
+    }, {
+      "uid" : "e7204a7eedc3de88",
+      "reportUrl" : "nulljob/Nbyula/58/allure/#testresult/e7204a7eedc3de88",
+      "status" : "failed",
+      "statusDetails" : "Failed: Test failed. No Ielts listings found.",
+      "time" : {
+        "start" : 1683884894571,
+        "stop" : 1683884900336,
+        "duration" : 5765
+      }
+    }, {
+      "uid" : "7854024ca560f3c0",
+      "reportUrl" : "nulljob/Nbyula/57/allure/#testresult/7854024ca560f3c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683884486648,
+        "stop" : 1683884492552,
+        "duration" : 5904
+      }
+    }, {
+      "uid" : "fdb1eb7ee4398473",
+      "reportUrl" : "nulljob/Nbyula/56/allure/#testresult/fdb1eb7ee4398473",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683884198210,
+        "stop" : 1683884203324,
+        "duration" : 5114
+      }
+    }, {
+      "uid" : "a65b233aa873c452",
+      "reportUrl" : "nulljob/Nbyula/55/allure/#testresult/a65b233aa873c452",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683880142919,
+        "stop" : 1683880148136,
+        "duration" : 5217
+      }
+    }, {
+      "uid" : "88cc701a7ca2aad2",
+      "reportUrl" : "nulljob/Nbyula/46/allure/#testresult/88cc701a7ca2aad2",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[text()=\"Highest Rated Listings\"]/parent::div//div[text()=\"IELTS Preparation\"]\"}\n  (Session info: chrome=113.0.5672.93)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x004EDCE3+50899]\n\t(No symbol) [0x0047E111]\n\t(No symbol) [0x00385588]\n\t(No symbol) [0x003B08F9]\n\t(No symbol) [0x003B0AFB]\n\t(No symbol) [0x003DF902]\n\t(No symbol) [0x003CB944]\n\t(No symbol) [0x003DE01C]\n\t(No symbol) [0x003CB6F6]\n\t(No symbol) [0x003A7708]\n\t(No symbol) [0x003A886D]\n\tGetHandleVerifier [0x00753EAE+2566302]\n\tGetHandleVerifier [0x007892B1+2784417]\n\tGetHandleVerifier [0x0078327C+2759788]\n\tGetHandleVerifier [0x00585740+672048]\n\t(No symbol) [0x00488872]\n\t(No symbol) [0x004841C8]\n\t(No symbol) [0x004842AB]\n\t(No symbol) [0x004771B7]\n\tBaseThreadInitThunk [0x76BB0099+25]\n\tRtlGetAppContainerNamedObjectPath [0x775E7B6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x775E7B3E+238]",
+      "time" : {
+        "start" : 1683835965344,
+        "stop" : 1683835970412,
+        "duration" : 5068
+      }
+    } ]
+  },
   "e73e766fbb256403545da076d3626c90" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 2
+      "total" : 11
     },
     "items" : [ {
+      "uid" : "745df1c06ddb1f70",
+      "reportUrl" : "nulljob/Nbyula/59/allure/#testresult/745df1c06ddb1f70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683885095251,
+        "stop" : 1683885096075,
+        "duration" : 824
+      }
+    }, {
+      "uid" : "9a1f67199895673",
+      "reportUrl" : "nulljob/Nbyula/58/allure/#testresult/9a1f67199895673",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683884885999,
+        "stop" : 1683884886245,
+        "duration" : 246
+      }
+    }, {
+      "uid" : "f5ff6a8641bbb3a6",
+      "reportUrl" : "nulljob/Nbyula/57/allure/#testresult/f5ff6a8641bbb3a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683884478702,
+        "stop" : 1683884478861,
+        "duration" : 159
+      }
+    }, {
+      "uid" : "968584ac0c66eb68",
+      "reportUrl" : "nulljob/Nbyula/56/allure/#testresult/968584ac0c66eb68",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683884189103,
+        "stop" : 1683884189212,
+        "duration" : 109
+      }
+    }, {
+      "uid" : "d0643f591e65234",
+      "reportUrl" : "nulljob/Nbyula/55/allure/#testresult/d0643f591e65234",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683880133181,
+        "stop" : 1683880133872,
+        "duration" : 691
+      }
+    }, {
+      "uid" : "259b2e0430d5dbd8",
+      "reportUrl" : "nulljob/Nbyula/46/allure/#testresult/259b2e0430d5dbd8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683835959641,
+        "stop" : 1683835959869,
+        "duration" : 228
+      }
+    }, {
+      "uid" : "33bd27f07d46b60",
+      "reportUrl" : "nulljob/Nbyula/45/allure/#testresult/33bd27f07d46b60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683834832299,
+        "stop" : 1683834832469,
+        "duration" : 170
+      }
+    }, {
+      "uid" : "45922b5b8f8ff7a0",
+      "reportUrl" : "nulljob/Nbyula/43/allure/#testresult/45922b5b8f8ff7a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683833976006,
+        "stop" : 1683833976880,
+        "duration" : 874
+      }
+    }, {
+      "uid" : "5ffe3b775d7e77ac",
+      "reportUrl" : "nulljob/Nbyula/23/allure/#testresult/5ffe3b775d7e77ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683819059186,
+        "stop" : 1683819060121,
+        "duration" : 935
+      }
+    }, {
       "uid" : "8eb8b400c7de00d4",
       "reportUrl" : "nulljob/Nbyula/14/allure/#testresult/8eb8b400c7de00d4",
       "status" : "passed",
@@ -30,14 +268,72 @@
   },
   "d59ae060ea4cb92bfc32bae96eda5adc" : {
     "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 2,
-      "passed" : 0,
+      "failed" : 1,
+      "broken" : 1,
+      "skipped" : 4,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 2
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "b04a4dcba703fdfb",
+      "reportUrl" : "nulljob/Nbyula/59/allure/#testresult/b04a4dcba703fdfb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683885158511,
+        "stop" : 1683885170944,
+        "duration" : 12433
+      }
+    }, {
+      "uid" : "b9055e8c319d2bb",
+      "reportUrl" : "nulljob/Nbyula/58/allure/#testresult/b9055e8c319d2bb",
+      "status" : "failed",
+      "statusDetails" : "Failed: Button clicking failed",
+      "time" : {
+        "start" : 1683884942959,
+        "stop" : 1683884964045,
+        "duration" : 21086
+      }
+    }, {
+      "uid" : "c6fb6d7480a932e0",
+      "reportUrl" : "nulljob/Nbyula/57/allure/#testresult/c6fb6d7480a932e0",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL reason: User has already joined the event\n\n_pytest.outcomes.XFailed: User has already joined the event",
+      "time" : {
+        "start" : 1683884541601,
+        "stop" : 1683884541847,
+        "duration" : 246
+      }
+    }, {
+      "uid" : "c21ecfee79f7fb2",
+      "reportUrl" : "nulljob/Nbyula/56/allure/#testresult/c21ecfee79f7fb2",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL reason: User has already joined the event\n\n_pytest.outcomes.XFailed: User has already joined the event",
+      "time" : {
+        "start" : 1683884260140,
+        "stop" : 1683884261134,
+        "duration" : 994
+      }
+    }, {
+      "uid" : "83b3eb74d5570fd6",
+      "reportUrl" : "nulljob/Nbyula/55/allure/#testresult/83b3eb74d5570fd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683880203300,
+        "stop" : 1683880218104,
+        "duration" : 14804
+      }
+    }, {
+      "uid" : "a6f8c94a87d526e0",
+      "reportUrl" : "nulljob/Nbyula/46/allure/#testresult/a6f8c94a87d526e0",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'NoneType' object has no attribute 'send_keys'",
+      "time" : {
+        "start" : 1683836010973,
+        "stop" : 1683836010973,
+        "duration" : 0
+      }
+    }, {
       "uid" : "be0715547479001d",
       "reportUrl" : "nulljob/Nbyula/14/allure/#testresult/be0715547479001d",
       "status" : "skipped",
@@ -56,6 +352,72 @@
         "start" : 1683576895095,
         "stop" : 1683576895095,
         "duration" : 0
+      }
+    } ]
+  },
+  "4878edf9cf5ed5548e3f52d84150add2" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 6
+    },
+    "items" : [ {
+      "uid" : "f793fc8b422ce2e0",
+      "reportUrl" : "nulljob/Nbyula/59/allure/#testresult/f793fc8b422ce2e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683885110049,
+        "stop" : 1683885111297,
+        "duration" : 1248
+      }
+    }, {
+      "uid" : "c853eaedaab5f451",
+      "reportUrl" : "nulljob/Nbyula/58/allure/#testresult/c853eaedaab5f451",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683884900596,
+        "stop" : 1683884901845,
+        "duration" : 1249
+      }
+    }, {
+      "uid" : "62013fe137de33f2",
+      "reportUrl" : "nulljob/Nbyula/57/allure/#testresult/62013fe137de33f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683884492570,
+        "stop" : 1683884494302,
+        "duration" : 1732
+      }
+    }, {
+      "uid" : "7a6b082d3b5b98bb",
+      "reportUrl" : "nulljob/Nbyula/56/allure/#testresult/7a6b082d3b5b98bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683884203334,
+        "stop" : 1683884205394,
+        "duration" : 2060
+      }
+    }, {
+      "uid" : "5b868c4ce4e83ca7",
+      "reportUrl" : "nulljob/Nbyula/55/allure/#testresult/5b868c4ce4e83ca7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683880148143,
+        "stop" : 1683880149939,
+        "duration" : 1796
+      }
+    }, {
+      "uid" : "c4dfa99a80e6da87",
+      "reportUrl" : "nulljob/Nbyula/46/allure/#testresult/c4dfa99a80e6da87",
+      "status" : "failed",
+      "statusDetails" : "Failed: Test failed. No popular services found.",
+      "time" : {
+        "start" : 1683835970803,
+        "stop" : 1683835980871,
+        "duration" : 10068
       }
     } ]
   },
@@ -88,47 +450,71 @@
       }
     } ]
   },
-  "5e7e7a6eb8972861f0ffe853e98e6c3b" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 2,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 2
-    },
-    "items" : [ {
-      "uid" : "f82b34f867830f75",
-      "reportUrl" : "nulljob/Nbyula/14/allure/#testresult/f82b34f867830f75",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=113.0.5672.64)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x00A2DCE3+50899]\n\t(No symbol) [0x009BE111]\n\t(No symbol) [0x008C5588]\n\t(No symbol) [0x008AD333]\n\t(No symbol) [0x0090F4DB]\n\t(No symbol) [0x0091DB33]\n\t(No symbol) [0x0090B6F6]\n\t(No symbol) [0x008E7708]\n\t(No symbol) [0x008E886D]\n\tGetHandleVerifier [0x00C93EAE+2566302]\n\tGetHandleVerifier [0x00CC92B1+2784417]\n\tGetHandleVerifier [0x00CC327C+2759788]\n\tGetHandleVerifier [0x00AC5740+672048]\n\t(No symbol) [0x009C8872]\n\t(No symbol) [0x009C41C8]\n\t(No symbol) [0x009C42AB]\n\t(No symbol) [0x009B71B7]\n\tBaseThreadInitThunk [0x75860099+25]\n\tRtlGetAppContainerNamedObjectPath [0x779C7B6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x779C7B3E+238]",
-      "time" : {
-        "start" : 1683576887366,
-        "stop" : 1683576887366,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "efdd042b6fac9440",
-      "reportUrl" : "nulljob/Nbyula/13/allure/#testresult/efdd042b6fac9440",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=113.0.5672.64)\nStacktrace:\nBacktrace:\n\tGetHandleVerifier [0x00A2DCE3+50899]\n\t(No symbol) [0x009BE111]\n\t(No symbol) [0x008C5588]\n\t(No symbol) [0x008AD333]\n\t(No symbol) [0x0090F4DB]\n\t(No symbol) [0x0091DB33]\n\t(No symbol) [0x0090B6F6]\n\t(No symbol) [0x008E7708]\n\t(No symbol) [0x008E886D]\n\tGetHandleVerifier [0x00C93EAE+2566302]\n\tGetHandleVerifier [0x00CC92B1+2784417]\n\tGetHandleVerifier [0x00CC327C+2759788]\n\tGetHandleVerifier [0x00AC5740+672048]\n\t(No symbol) [0x009C8872]\n\t(No symbol) [0x009C41C8]\n\t(No symbol) [0x009C42AB]\n\t(No symbol) [0x009B71B7]\n\tBaseThreadInitThunk [0x75860099+25]\n\tRtlGetAppContainerNamedObjectPath [0x779C7B6E+286]\n\tRtlGetAppContainerNamedObjectPath [0x779C7B3E+238]",
-      "time" : {
-        "start" : 1683576887366,
-        "stop" : 1683576887366,
-        "duration" : 0
-      }
-    } ]
-  },
   "d2c769f1bb554aca0fcf00292dc3b9d4" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 2
+      "total" : 8
     },
     "items" : [ {
+      "uid" : "ac484abd1b74deef",
+      "reportUrl" : "nulljob/Nbyula/59/allure/#testresult/ac484abd1b74deef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683885117981,
+        "stop" : 1683885119752,
+        "duration" : 1771
+      }
+    }, {
+      "uid" : "5cd84741649013b3",
+      "reportUrl" : "nulljob/Nbyula/58/allure/#testresult/5cd84741649013b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683884907925,
+        "stop" : 1683884909004,
+        "duration" : 1079
+      }
+    }, {
+      "uid" : "26d89140af721d66",
+      "reportUrl" : "nulljob/Nbyula/57/allure/#testresult/26d89140af721d66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683884506032,
+        "stop" : 1683884507679,
+        "duration" : 1647
+      }
+    }, {
+      "uid" : "e7c004fbb1a2c870",
+      "reportUrl" : "nulljob/Nbyula/56/allure/#testresult/e7c004fbb1a2c870",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683884218401,
+        "stop" : 1683884219732,
+        "duration" : 1331
+      }
+    }, {
+      "uid" : "e0dc1245f3d62077",
+      "reportUrl" : "nulljob/Nbyula/55/allure/#testresult/e0dc1245f3d62077",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683880161130,
+        "stop" : 1683880162509,
+        "duration" : 1379
+      }
+    }, {
+      "uid" : "16c63bd7fa2ffd44",
+      "reportUrl" : "nulljob/Nbyula/46/allure/#testresult/16c63bd7fa2ffd44",
+      "status" : "failed",
+      "statusDetails" : "Failed: No questions found.",
+      "time" : {
+        "start" : 1683835988909,
+        "stop" : 1683835993959,
+        "duration" : 5050
+      }
+    }, {
       "uid" : "4c9b1f98e8b53e3f",
       "reportUrl" : "nulljob/Nbyula/14/allure/#testresult/4c9b1f98e8b53e3f",
       "status" : "failed",

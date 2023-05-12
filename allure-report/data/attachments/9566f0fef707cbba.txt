@@ -1,0 +1,7 @@
+INFO     root:test_signup.py:78 Email signup started.
+INFO     root:test_signup.py:48 Fetch OTP fixture started
+INFO     root:test_signup.py:72 Fetch OTP fixture ended
+INFO     root:test_signup.py:88 Email signup finished.
+INFO     root:test_signup.py:93 Email signup success Test started.
+INFO     root:test_signup.py:97 Storing email and password.
+INFO     root:test_signup.py:102 Email signup success Test ended.

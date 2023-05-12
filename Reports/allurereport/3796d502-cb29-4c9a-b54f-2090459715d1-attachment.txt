@@ -1,0 +1,2 @@
+INFO     root:test_signup.py:78 Email signup started.
+INFO     root:test_signup.py:48 Fetch OTP fixture started

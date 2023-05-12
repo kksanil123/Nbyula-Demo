@@ -1,0 +1,192 @@
+{
+  "uid" : "f793fc8b422ce2e0",
+  "name" : "test_popular_service_listings",
+  "fullName" : "test_listings_page#test_popular_service_listings",
+  "historyId" : "4878edf9cf5ed5548e3f52d84150add2",
+  "time" : {
+    "start" : 1683885110049,
+    "stop" : 1683885111297,
+    "duration" : 1248
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1683885098553,
+      "stop" : 1683885100773,
+      "duration" : 2220
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "listings_page_object",
+    "time" : {
+      "start" : 1683885100774,
+      "stop" : 1683885104483,
+      "duration" : 3709
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e0022feb84f01a04",
+      "name" : "log",
+      "source" : "e0022feb84f01a04.txt",
+      "type" : "text/plain",
+      "size" : 155
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "listings_page_object::0",
+    "time" : {
+      "start" : 1683885111297,
+      "stop" : 1683885111548,
+      "duration" : 251
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_listings_page"
+  }, {
+    "name" : "host",
+    "value" : "MSI"
+  }, {
+    "name" : "thread",
+    "value" : "10792-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_listings_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5c3d764ab3dfc1b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683884900596,
+        "stop" : 1683884901845,
+        "duration" : 1249
+      }
+    }, {
+      "uid" : "85fe315226120fee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683884492570,
+        "stop" : 1683884494302,
+        "duration" : 1732
+      }
+    }, {
+      "uid" : "fd24e0e26ab948e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683884203334,
+        "stop" : 1683884205394,
+        "duration" : 2060
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "c853eaedaab5f451",
+        "reportUrl" : "nulljob/Nbyula/58/allure/#testresult/c853eaedaab5f451",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683884900596,
+          "stop" : 1683884901845,
+          "duration" : 1249
+        }
+      }, {
+        "uid" : "62013fe137de33f2",
+        "reportUrl" : "nulljob/Nbyula/57/allure/#testresult/62013fe137de33f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683884492570,
+          "stop" : 1683884494302,
+          "duration" : 1732
+        }
+      }, {
+        "uid" : "7a6b082d3b5b98bb",
+        "reportUrl" : "nulljob/Nbyula/56/allure/#testresult/7a6b082d3b5b98bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683884203334,
+          "stop" : 1683884205394,
+          "duration" : 2060
+        }
+      }, {
+        "uid" : "5b868c4ce4e83ca7",
+        "reportUrl" : "nulljob/Nbyula/55/allure/#testresult/5b868c4ce4e83ca7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1683880148143,
+          "stop" : 1683880149939,
+          "duration" : 1796
+        }
+      }, {
+        "uid" : "c4dfa99a80e6da87",
+        "reportUrl" : "nulljob/Nbyula/46/allure/#testresult/c4dfa99a80e6da87",
+        "status" : "failed",
+        "statusDetails" : "Failed: Test failed. No popular services found.",
+        "time" : {
+          "start" : 1683835970803,
+          "stop" : 1683835980871,
+          "duration" : 10068
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f793fc8b422ce2e0.json",
+  "parameterValues" : [ ]
+}
